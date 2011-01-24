@@ -1,1710 +1,0 @@
-THelloCocos
-v7
-r0
-t317528606.789201
-cCheck dependencies
-cProcessInfoPlistFile /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Info.plist Resources/Info.plist
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/Default.png Resources/Default.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/fps_images.png Resources/fps_images.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/Icon.png Resources/Icon.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/Background3.png Resources/Background3.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/smiley.png Resources/smiley.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/fire.png Resources/fire.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/fire.pvr Resources/fire.pvr
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/firewood.png Resources/firewood.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/devil.png Resources/devil.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/spaceship.png Resources/spaceship.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/fireball.wav Resources/fireball.wav
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/laser.wav Resources/laser.wav
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/small_spaceship.png Resources/small_spaceship.png
-cCpResource build/Debug-iphonesimulator/HelloCocos.app/space_demon_home_screen.png Resources/space_demon_home_screen.png
-cProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch.gch HelloCocos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/main.o /Users/azamsharp/Documents/HelloCocos/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocosAppDelegate.o /Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloWorldScene.o /Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/RootViewController.o /Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/GameScene.o /Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Demon.o /Users/azamsharp/Documents/HelloCocos/Classes/Demon.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Environment.o /Users/azamsharp/Documents/HelloCocos/Classes/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/CollisionManager.o /Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Spaceship.o /Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Scoreboard.o /Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/BaseEntity.o /Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScene.o /Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos normal i386
-cGenerateDSYMFile /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app.dSYM /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos
-cTouch /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
-c000000004C6C30170000000000000110
-t1282158615
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004C5A5EAD00000000000D2090
-t1280990893
-s860304
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004C5A5EA10000000000000703
-t1280990881
-s1795
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C5A4D1600000000001E06E0
-t1280986390
-s1967840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004C5A4D020000000000000A23
-t1280986370
-s2595
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
-c000000004C5A4C8C000000000000A48C
-t1280986252
-s42124
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A4DB60000000000295900
-t1280986550
-s2709760
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
-c000000004C5A4CD700000000000022F0
-t1280986327
-s8944
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
-c000000004C5A4CD90000000000002650
-t1280986329
-s9808
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A4DB0000000000029D580
-t1280986544
-s2741632
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A4DA10000000000001466
-t1280986529
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004C5A4D3B00000000000064FD
-t1280986427
-s25853
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004C5A4D3B0000000000001F45
-t1280986427
-s8005
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004C5A4D4200000000000244B0
-t1280986434
-s148656
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C5A4E4D000000000000094F
-t1280986701
-s2383
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C5A4E4D0000000000000A61
-t1280986701
-s2657
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C5A4E4D0000000000009369
-t1280986701
-s37737
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C5A4E4D0000000000003C4A
-t1280986701
-s15434
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C5A4E570000000000019D60
-t1280986711
-s105824
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A505200000000000000C4
-t1280987218
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A50EF0000000000154E50
-t1280987375
-s1396304
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C6241ED00000000000009CD
-t1281507821
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C6242840000000001E228C0
-t1281507972
-s31598784
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
-c000000004C6C305C0000000000000071
-t1282158684
-s113
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/iAd.framework/iAd
-c000000004C6C30600000000000057F80
-t1282158688
-s360320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/inttypes.h
-c000000004C57909100000000000027D1
-t1280807057
-s10193
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/math.h
-c000000004A5C14A000000000000004F1
-t1247548576
-s1265
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/objc/objc.h
-c000000004C5A494F0000000000000A2F
-t1280985423
-s2607
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/stdlib.h
-c000000004C5790920000000000002DF5
-t1280807058
-s11765
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/string.h
-c000000004C5790920000000000001731
-t1280807058
-s5937
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sys/time.h
-c000000004C5798ED0000000000001E17
-t1280809197
-s7703
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004A1198340000000000003197
-t1242667060
-s12695
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libz.dylib
-c000000004C5A495000000000000123E0
-t1280985424
-s74720
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.h
-c000000004D0919CC0000000000000122
-t1292442060
-s290
-i<Foundation/Foundation.h>
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m
-c000000004D10FDF7000000000000016D
-t1292959223
-s365
-i"BaseEntity.h"
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.h
-c000000004D0791990000000000000149
-t1292341657
-s329
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m
-c000000004D10CF670000000000000351
-t1292947303
-s849
-i"CollisionManager.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Demon.h
-c000000004D1127FD0000000000000299
-t1292969981
-s665
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"Spaceship.h"
-i"BaseEntity.h"
-i"SimpleAudioEngine.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m
-c000000004D112B08000000000000087D
-t1292970760
-s2173
-i"Demon.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Environment.h
-c000000004D11004000000000000001D5
-t1292959808
-s469
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"SimpleAudioEngine.h"
-i"Spaceship.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m
-c000000004D110B4F0000000000000885
-t1292962639
-s2181
-i"Environment.h"
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.h
-c000000004D03B7020000000000000141
-t1292089090
-s321
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m
-c000000004D3CE2760000000000000AE0
-t1295835766
-s2784
-i"GameScene.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.h
-c000000004CBB85670000000000000140
-t1287357799
-s320
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m
-c000000004D110DC700000000000007DF
-t1292963271
-s2015
-i"HelloCocosAppDelegate.h"
-i"cocos2d.h"
-i"HelloWorldScene.h"
-i"RootViewController.h"
-i"GameScene.h"
-i"HomeScene.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.h
-c000000004D10FF310000000000000423
-t1292959537
-s1059
-i"cocos2d.h"
-i"CollisionManager.h"
-i"Demon.h"
-i"Spaceship.h"
-i"Scoreboard.h"
-i"Environment.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m
-c000000004D3CE29E000000000000110C
-t1295835806
-s4364
-i"HelloWorldScene.h"
-i"Environment.h"
-i"Demon.h"
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.h
-c000000004D11180C000000000000011A
-t1292965900
-s282
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"HelloWorldScene.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m
-c000000004D13B7190000000000000421
-t1293137689
-s1057
-i"HomeScene.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.h
-c000000004D110D4200000000000000FE
-t1292963138
-s254
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.m
-c000000004D110D6B00000000000001D5
-t1292963179
-s469
-i"HomeScreen.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.h
-c000000004CDF72DC0000000000000189
-t1289712348
-s393
-i<Foundation/Foundation.h>
-i<iAd/iAd.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m
-c000000004CE32D080000000000000AC1
-t1289956616
-s2753
-i"RootViewController.h"
-i"HelloWorldScene.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.h
-c000000004D09219B00000000000001F5
-t1292444059
-s501
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"BaseEntity.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m
-c000000004D09224D0000000000000325
-t1292444237
-s805
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.h
-c000000004D18075F0000000000000305
-t1293420383
-s773
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"BaseEntity.h"
-i"SimpleAudioEngine.h"
-
-N/Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m
-c000000004D180983000000000000094F
-t1293420931
-s2383
-i"Spaceship.h"
-
-N/Users/azamsharp/Documents/HelloCocos/HelloCocos
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch
-c000000004D18C81300000000000000AD
-t1293469715
-s173
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/Background3.png
-c000000004CBBBCA4000000000002920F
-t1287371940
-s168463
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/Default.png
-c000000004C87976300000000000077AB
-t1283954531
-s30635
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/Icon.png
-c000000004D0FD302000000000000246F
-t1292882690
-s9327
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/devil.png
-c000000004CF715ED0000000000001501
-t1291261421
-s5377
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/fire.png
-c000000004C3E2DDE00000000000002D2
-t1279143390
-s722
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/fire.pvr
-c000000004C3E2DDE0000000000000134
-t1279143390
-s308
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/fireball.wav
-c000000004D0E2E930000000000054A46
-t1292775059
-s346694
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/firewood.png
-c000000004CE97C800000000000001E6D
-t1290370176
-s7789
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/fps_images.png
-c000000004CBBBCA3000000000000183B
-t1287371939
-s6203
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/laser.wav
-c000000004D0E2E9E000000000002F698
-t1292775070
-s194200
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/small_spaceship.png
-c000000004D10C8AD0000000000000406
-t1292945581
-s1030
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/smiley.png
-c000000004CAE80BA0000000000000A19
-t1286504634
-s2585
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/space_demon_home_screen.png
-c000000004D1110F80000000000010601
-t1292964088
-s67073
-
-N/Users/azamsharp/Documents/HelloCocos/Resources/spaceship.png
-c000000004CF86E970000000000001980
-t1291349655
-s6528
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app
-t1295835806
-s646
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app.dSYM
-t1295835806
-s102
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Background3.png
-t1293469272
-s168463
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Default.png
-t1293469272
-s30635
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos
-t1295835806
-s1445724
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Icon.png
-t1293469272
-s9327
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Info.plist
-t1293469272
-s618
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/PkgInfo
-t1293469272
-s8
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/devil.png
-t1293469272
-s5377
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/fire.png
-t1293469272
-s722
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/fire.pvr
-t1293469272
-s308
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/fireball.wav
-t1293469272
-s346694
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/firewood.png
-t1293469272
-s7789
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/fps_images.png
-t1293469272
-s6203
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/laser.wav
-t1293469272
-s194200
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/small_spaceship.png
-t1293469272
-s1030
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/smiley.png
-t1293469272
-s2585
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/space_demon_home_screen.png
-t1293469272
-s67073
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/spaceship.png
-t1293469272
-s6528
-
-N/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/libcocos2d libraries.a
-c000000004D18C65800000000003C7318
-t1293469272
-s3961624
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/BaseEntity.o
-t1295360247
-s43880
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/CollisionManager.o
-t1295360247
-s11652
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Demon.o
-t1295360247
-s29572
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Environment.o
-t1295360247
-s55836
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/GameScene.o
-t1295835767
-s57452
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocos.LinkFileList
-c000000004D18C658000000000000064D
-t1293469272
-s1613
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocosAppDelegate.o
-t1295360244
-s61060
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloWorldScene.o
-t1295835806
-s71684
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScene.o
-t1295360248
-s52248
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScreen.o
-t1292963179
-s11452
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/RootViewController.o
-t1295360246
-s60380
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Scoreboard.o
-t1295360247
-s20632
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Spaceship.o
-t1295360247
-s63072
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/main.o
-t1295360244
-s6424
-
-N/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Script-8D4EE74E12C832EC004A2BB8.sh
-c000000004D18C401000000000000000B
-t1293468673
-s11
-
-N/Users/azamsharp/Documents/HelloCocos/libs/CocosDenshion/CDAudioManager.h
-c000000004CC5E293000000000000225E
-t1288037011
-s8798
-i"CocosDenshion.h"
-i<AVFoundation/AVFoundation.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/CocosDenshion/CDConfig.h
-c000000004CC5E2930000000000000A9A
-t1288037011
-s2714
-
-N/Users/azamsharp/Documents/HelloCocos/libs/CocosDenshion/CDOpenALSupport.h
-c000000004CE5F2770000000000000CF9
-t1290138231
-s3321
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<CoreFoundation/CFURL.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/CocosDenshion/CocosDenshion.h
-c000000004CC5E29300000000000035AC
-t1288037011
-s13740
-i<UIKit/UIKit.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<AudioToolbox/AudioToolbox.h>
-i"CDConfig.h"
-i"CDOpenALSupport.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/CocosDenshion/SimpleAudioEngine.h
-c000000004CE5F2770000000000000EE0
-t1290138231
-s3808
-i"CDAudioManager.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCAction.h
-c000000004C8D3F38000000000000165C
-t1284325176
-s5724
-i<UIKit/UIKit.h>
-i<sys/time.h>
-i"ccTypes.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCActionManager.h
-c000000004C8D3F380000000000001072
-t1284325176
-s4210
-i"CCAction.h"
-i"Support/ccCArray.h"
-i"Support/uthash.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCAtlasNode.h
-c000000004CE5F2770000000000000C4A
-t1290138231
-s3146
-i"CCTextureAtlas.h"
-i"CCNode.h"
-i"CCProtocols.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCBitmapFontAtlas.h
-c000000004CC5E2930000000000001533
-t1288037011
-s5427
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-i"Support/uthash.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCBlockSupport.h
-c000000004C87974D00000000000007AA
-t1283954509
-s1962
-i<Foundation/Foundation.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCCamera.h
-c000000004C87974D0000000000000B48
-t1283954509
-s2888
-i"CCNode.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCCameraAction.h
-c000000004CE5F27700000000000009AA
-t1290138231
-s2474
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCCompatibility.h
-c000000004CE5F2770000000000003891
-t1290138231
-s14481
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCConfiguration.h
-c000000004CE5F2770000000000000A89
-t1290138231
-s2697
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCDirector.h
-c000000004C87974D00000000000041A6
-t1283954509
-s16806
-i"ccConfig.h"
-i"ccTypes.h"
-i"Support/EAGLView.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCDrawingPrimitives.h
-c000000004C87974D0000000000000B1A
-t1283954509
-s2842
-i<CoreGraphics/CGGeometry.h>
-i<objc/objc.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCEaseAction.h
-c000000004CC5E2930000000000001671
-t1288037011
-s5745
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCGrabber.h
-c000000004CC5E29300000000000005FA
-t1288037011
-s1530
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCGrid.h
-c000000004C8D3F380000000000000E50
-t1284325176
-s3664
-i<UIKit/UIKit.h>
-i"CCNode.h"
-i"CCCamera.h"
-i"ccTypes.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCGrid3DAction.h
-c000000004C87974D00000000000019DF
-t1283954509
-s6623
-i"CCGridAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCGridAction.h
-c000000004CE5F27700000000000014A7
-t1290138231
-s5287
-i<UIKit/UIKit.h>
-i"CCIntervalAction.h"
-i"CCInstantAction.h"
-i"CCGrid.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCInstantAction.h
-c000000004C8D3F380000000000001178
-t1284325176
-s4472
-i<UIKit/UIKit.h>
-i"CCAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCIntervalAction.h
-c000000004CC5E2930000000000003266
-t1288037011
-s12902
-i"CCNode.h"
-i"CCAction.h"
-i"CCProtocols.h"
-i<sys/time.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCLabel.h
-c000000004CC5E2930000000000000A19
-t1288037011
-s2585
-i"CCTexture2D.h"
-i"CCSprite.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCLabelAtlas.h
-c000000004CC5E293000000000000098E
-t1288037011
-s2446
-i"CCAtlasNode.h"
-i"CCTextureAtlas.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCLayer.h
-c000000004C910CF7000000000000139E
-t1284574455
-s5022
-i<UIKit/UIKit.h>
-i"CCProtocols.h"
-i"CCNode.h"
-i"CCTouchDelegateProtocol.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCMenu.h
-c000000004C8D3F380000000000000AEE
-t1284325176
-s2798
-i<UIKit/UIKit.h>
-i"CCMenuItem.h"
-i"CCLayer.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCMenuItem.h
-c000000004C87974D00000000000031FC
-t1283954509
-s12796
-i"CCBlockSupport.h"
-i"CCNode.h"
-i"CCProtocols.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCMotionStreak.h
-c000000004CE5F2770000000000000B2A
-t1290138231
-s2858
-i<Foundation/Foundation.h>
-i"CCNode.h"
-i"CCRibbon.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCNode.h
-c000000004CC5E2930000000000003E93
-t1288037011
-s16019
-i<OpenGLES/ES1/gl.h>
-i"CCAction.h"
-i"ccTypes.h"
-i"CCTexture2D.h"
-i"CCProtocols.h"
-i"ccConfig.h"
-i"Support/CCArray.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCPVRTexture.h
-c000000004CC5E2930000000000000CA5
-t1288037011
-s3237
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCPageTurn3DAction.h
-c000000004CC5E2930000000000000644
-t1288037011
-s1604
-i"CCGrid3DAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCPageTurnTransition.h
-c000000004CE5F27700000000000008F5
-t1290138231
-s2293
-i"CCTransition.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCParallaxNode.h
-c000000004C8D3F38000000000000075B
-t1284325176
-s1883
-i"CCNode.h"
-i"Support/ccCArray.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCParticleExamples.h
-c000000004C87974D00000000000008C1
-t1283954509
-s2241
-i"CCPointParticleSystem.h"
-i"CCQuadParticleSystem.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCParticleSystem.h
-c000000004CE5F2770000000000003694
-t1290138231
-s13972
-i"CCProtocols.h"
-i"CCNode.h"
-i"ccTypes.h"
-i"ccConfig.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCPointParticleSystem.h
-c000000004C8D3F380000000000000762
-t1284325176
-s1890
-i"CCParticleSystem.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCProgressTimer.h
-c000000004C8D3F380000000000000B48
-t1284325176
-s2888
-i<Foundation/Foundation.h>
-i"CCSprite.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCProgressTimerActions.h
-c000000004CE5F277000000000000088D
-t1290138231
-s2189
-i<Foundation/Foundation.h>
-i"CCProgressTimer.h"
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCPropertyAction.h
-c000000004CC5E2930000000000000941
-t1288037011
-s2369
-i<Foundation/Foundation.h>
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCProtocols.h
-c000000004CE5F2770000000000000E35
-t1290138231
-s3637
-i"ccTypes.h"
-i"CCTexture2D.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCQuadParticleSystem.h
-c000000004C8D3F3800000000000009A2
-t1284325176
-s2466
-i"CCParticleSystem.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCRadialTransition.h
-c000000004C8D3F3800000000000005F2
-t1284325176
-s1522
-i"CCTransition.h"
-i"CCProgressTimer.h"
-i"CCProgressTimerActions.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCRenderTexture.h
-c000000004C8D3F380000000000000A68
-t1284325176
-s2664
-i<Foundation/Foundation.h>
-i"CCNode.h"
-i"CCSprite.h"
-i"Support/OpenGL_Internal.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCRibbon.h
-c000000004C87974D0000000000000FCE
-t1283954509
-s4046
-i"CCNode.h"
-i"CCTexture2D.h"
-i"CCProtocols.h"
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCScene.h
-c000000004CE5F2770000000000000691
-t1290138231
-s1681
-i<UIKit/UIKit.h>
-i"CCNode.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCScheduler.h
-c000000004CC5E29300000000000019FA
-t1288037011
-s6650
-i<Foundation/Foundation.h>
-i"Support/uthash.h"
-i"ccTypes.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCSprite.h
-c000000004C8D3F380000000000002EA9
-t1284325176
-s11945
-i"CCNode.h"
-i"CCProtocols.h"
-i"CCTextureAtlas.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCSpriteFrame.h
-c000000004CC5E29300000000000013F5
-t1288037011
-s5109
-i<Foundation/Foundation.h>
-i"CCNode.h"
-i"CCProtocols.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCSpriteFrameCache.h
-c000000004C8D3F380000000000000FF9
-t1284325176
-s4089
-i<Foundation/Foundation.h>
-i"CCSpriteFrame.h"
-i"CCTexture2D.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCSpriteSheet.h
-c000000004C8D3F380000000000001762
-t1284325176
-s5986
-i"CCNode.h"
-i"CCProtocols.h"
-i"CCTextureAtlas.h"
-i"ccMacros.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTMXLayer.h
-c000000004C8D3F380000000000001820
-t1284325176
-s6176
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTMXObjectGroup.h
-c000000004C8D3F3800000000000008ED
-t1284325176
-s2285
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTMXTiledMap.h
-c000000004C910CF700000000000014EC
-t1284574455
-s5356
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTMXXMLParser.h
-c000000004C8D3F3800000000000015E1
-t1284325176
-s5601
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTexture2D.h
-c000000004C8D3F38000000000000262B
-t1284325176
-s9771
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTextureAtlas.h
-c000000004C87974D0000000000001477
-t1283954509
-s5239
-i"CCTexture2D.h"
-i"ccTypes.h"
-i"ccConfig.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTextureCache.h
-c000000004CC5E2930000000000001303
-t1288037011
-s4867
-i<Foundation/Foundation.h>
-i<CoreGraphics/CGImage.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTileMapAtlas.h
-c000000004C8D3F380000000000000B72
-t1284325176
-s2930
-i"CCTextureAtlas.h"
-i"CCAtlasNode.h"
-i"Support/TGAlib.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTiledGridAction.h
-c000000004C910CF70000000000001A15
-t1284574455
-s6677
-i"CCGridAction.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTouchDelegateProtocol.h
-c000000004CC5E2930000000000000AC5
-t1288037011
-s2757
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTouchDispatcher.h
-c000000004C910CF70000000000000FC6
-t1284574455
-s4038
-i"CCTouchDelegateProtocol.h"
-i"Support/EAGLView.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTouchHandler.h
-c000000004C87974D0000000000000C9C
-t1283954509
-s3228
-i"CCTouchDelegateProtocol.h"
-i"CCTouchDispatcher.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/CCTransition.h
-c000000004C8D3F380000000000002130
-t1284325176
-s8496
-i"CCScene.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/CCArray.h
-c000000004C87974D0000000000000BBB
-t1283954509
-s3003
-i"ccCArray.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/CCFileUtils.h
-c000000004CE5F277000000000000058C
-t1290138231
-s1420
-i<Foundation/Foundation.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/CCProfiling.h
-c000000004C87974D00000000000006E9
-t1283954509
-s1769
-i<Foundation/Foundation.h>
-i<sys/time.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/CGPointExtension.h
-c000000004C910CF70000000000001E13
-t1284574455
-s7699
-i<CoreGraphics/CGGeometry.h>
-i<math.h>
-i<objc/objc.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/EAGLView.h
-c000000004CC5E29300000000000017DD
-t1288037011
-s6109
-i<UIKit/UIKit.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/EAGLDrawable.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i"ESRenderer.h"
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/ESRenderer.h
-c000000004C8D3F3800000000000005FB
-t1284325176
-s1531
-i<QuartzCore/QuartzCore.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/EAGLDrawable.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/OpenGL_Internal.h
-c000000004C910CF700000000000011A7
-t1284574455
-s4519
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/TGAlib.h
-c000000004C8D3F380000000000000444
-t1284325176
-s1092
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/ccCArray.h
-c000000004C910CF70000000000003095
-t1284574455
-s12437
-i<Foundation/Foundation.h>
-i<stdlib.h>
-i<string.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/Support/uthash.h
-c000000004CC5E294000000000000FB13
-t1288037012
-s64275
-i<string.h>
-i<stddef.h>
-i<inttypes.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/ccConfig.h
-c000000004CC5E2940000000000001ABD
-t1288037012
-s6845
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/ccMacros.h
-c000000004C910CF70000000000001740
-t1284574455
-s5952
-i<math.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/ccTypes.h
-c000000004C910CF70000000000001651
-t1284574455
-s5713
-i<objc/objc.h>
-i<CoreGraphics/CGGeometry.h>
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/HelloCocos/libs/cocos2d/cocos2d.h
-c000000004CE5F2770000000000000E62
-t1290138231
-s3682
-i"ccConfig.h"
-i"CCBlockSupport.h"
-i"CCAction.h"
-i"CCCamera.h"
-i"CCCameraAction.h"
-i"CCProtocols.h"
-i"CCNode.h"
-i"CCDirector.h"
-i"CCTouchDispatcher.h"
-i"CCTouchDelegateProtocol.h"
-i"CCInstantAction.h"
-i"CCIntervalAction.h"
-i"CCEaseAction.h"
-i"CCLabel.h"
-i"CCLayer.h"
-i"CCMenu.h"
-i"CCMenuItem.h"
-i"CCParticleSystem.h"
-i"CCPointParticleSystem.h"
-i"CCQuadParticleSystem.h"
-i"CCParticleExamples.h"
-i"CCDrawingPrimitives.h"
-i"CCScene.h"
-i"CCScheduler.h"
-i"CCSprite.h"
-i"CCSpriteFrame.h"
-i"CCSpriteSheet.h"
-i"CCSpriteFrameCache.h"
-i"CCTextureCache.h"
-i"CCTransition.h"
-i"CCTextureAtlas.h"
-i"CCLabelAtlas.h"
-i"CCAtlasNode.h"
-i"CCEaseAction.h"
-i"CCTiledGridAction.h"
-i"CCGrabber.h"
-i"CCGrid.h"
-i"CCGrid3DAction.h"
-i"CCGridAction.h"
-i"CCBitmapFontAtlas.h"
-i"CCParallaxNode.h"
-i"CCActionManager.h"
-i"CCTMXTiledMap.h"
-i"CCTMXLayer.h"
-i"CCTMXObjectGroup.h"
-i"CCTMXXMLParser.h"
-i"CCTileMapAtlas.h"
-i"CCRenderTexture.h"
-i"CCMotionStreak.h"
-i"CCPageTurn3DAction.h"
-i"CCPageTurnTransition.h"
-i"CCTexture2D.h"
-i"CCPVRTexture.h"
-i"CCTouchHandler.h"
-i"CCConfiguration.h"
-i"CCRadialTransition.h"
-i"CCProgressTimerActions.h"
-i"CCPropertyAction.h"
-i"ccTypes.h"
-i"ccMacros.h"
-i"Support/OpenGL_Internal.h"
-i"Support/EAGLView.h"
-i"Support/CCFileUtils.h"
-i"Support/CGPointExtension.h"
-i"Support/ccCArray.h"
-i"Support/CCArray.h"
-i"Support/CCProfiling.h"
-i"CCCompatibility.h"
-
-N/Users/azamsharp/Documents/HelloCocos/main.m
-c000000004CBB85680000000000000163
-t1287357800
-s355
-i<UIKit/UIKit.h>
-
-N/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-bxmgftglmpkitvclbtshfucgcrlz/HelloCocos_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-dqzmqtpeawcgzlgvftuqkhxgbwsp/HelloCocos_Prefix.pch.gch
-t1293468487
-s15232016
-
-N/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch.gch
-t1295360243
-s15232016
-
-N/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-gnjihotajcuqgvayhczdfzkbylsi/HelloCocos_Prefix.pch.gch
-t1293469719
-s15232016
-
-NResources/Info.plist
-c000000004C87974D000000000000038E
-t1283954509
-s910
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317528606#317528606#0(0"0(0#1#0"8615339808#0"0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/BaseEntity.o /Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053047.760583
-e317053047.964596
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/BaseEntity.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m317053047#317053047#0(0"0(0#0#58"/Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m8609918880#2028"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/BaseEntity.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/BaseEntity.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/CollisionManager.o /Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053047.409359
-e317053047.604849
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/CollisionManager.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m317053047#317053047#0(0"0(0#0#64"/Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m8607733696#2040"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/CollisionManager.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/CollisionManager.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Demon.o /Users/azamsharp/Documents/HelloCocos/Classes/Demon.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053046.851959
-e317053047.458956
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Demon.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m: In function '-[Demon hit]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m:29: warning: unused variable 'callback'
-lSLF07#2@61"Compile /Users/azamsharp/Documents/HelloCocos/Classes/Demon.m317053046#317053047#0(177"/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m: In function '-[Demon hit]':/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m:29: warning: unused variable 'callback'1(22@26"Unused variable 'callback'317053047#83#94#0(6@53"/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m314663560#29#0#29#0#19"unused variable '*'0(0#0#53"/Users/azamsharp/Documents/HelloCocos/Classes/Demon.m8609258336#2018"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/Demon.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Demon.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Environment.o /Users/azamsharp/Documents/HelloCocos/Classes/Environment.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053046.860659
-e317053047.409258
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Environment.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m: In function '-[Environment displayGameOverMessage]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable
-o/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable
-o/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m: In function '-[Environment setup]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:75: warning: local declaration of 'windowSize' hides instance variable
-o/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:79: warning: local declaration of 'windowSize' hides instance variable
-lSLF07#2@67"Compile /Users/azamsharp/Documents/HelloCocos/Classes/Environment.m317053046#317053047#0(735"/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m: In function '-[Environment displayGameOverMessage]':/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m: In function '-[Environment setup]':/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:75: warning: local declaration of 'windowSize' hides instance variable/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m:79: warning: local declaration of 'windowSize' hides instance variable4(22@57"Local declaration of 'windowSize' hides instance variable317053047#114#131#0(6@59"/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m314655439#28#0#28#0#0"0(22@57"Local declaration of 'windowSize' hides instance variable317053047#245#131#0(6@59"/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m314655439#28#0#28#0#0"0(22@57"Local declaration of 'windowSize' hides instance variable317053047#473#131#0(6@59"/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m314655439#75#0#75#0#0"0(22@57"Local declaration of 'windowSize' hides instance variable317053047#604#131#0(6@59"/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m314655439#79#0#79#0#0"0(0#0#59"/Users/azamsharp/Documents/HelloCocos/Classes/Environment.m8603879776#2030"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/Environment.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Environment.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/GameScene.o /Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317528566.942029
-e317528567.088359
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/GameScene.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m: In function '-[GameScene accelerometer:didAccelerate:]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m:65: warning: unused variable 'prevY'
-o/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m: In function '-[GameScene finishedAnimation]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m:92: warning: unused variable 'windowSize'
-lSLF07#2@65"Compile /Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m317528566#317528567#0(416"/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m: In function '-[GameScene accelerometer:didAccelerate:]':/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m:65: warning: unused variable 'prevY'/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m: In function '-[GameScene finishedAnimation]':/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m:92: warning: unused variable 'windowSize'2(22@23"Unused variable 'prevY'317528567#116#95#0(6@57"/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m317528566#65#0#65#0#19"unused variable '*'0(22@28"Unused variable 'windowSize'317528567#316#100#0(6@57"/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m317528566#92#0#92#0#19"unused variable '*'0(0#0#57"/Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m8618110816#2088"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/GameScene.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/GameScene.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocosAppDelegate.o /Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053044.015809
-e317053044.456644
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocosAppDelegate.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m317053044#317053044#0(0"0(0#0#69"/Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m8609268576#2050"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/HelloCocosAppDelegate.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocosAppDelegate.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloWorldScene.o /Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317528606.178708
-e317528606.433942
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloWorldScene.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: 'HelloWorld' may not respond to '-addSpaceshipToGame'
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: (Messages without a matching method signature
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: will be assumed to return 'id' and accept
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: '...' as arguments.)
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:59: warning: no '-initWithSpriteFileName:currentLayer:' method found
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:69: warning: no '-initWithScoreAndLayer:currentLayer:' method found
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld accelerometer:didAccelerate:]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:83: warning: unused variable 'prevY'
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld addSpaceshipToGame]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:127: warning: no '-initWithSpriteFileName:currentLayer:' method found
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld checkIfSpaceshipIsHit]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:140: warning: 'Environment' may not respond to '-removeLifeByTag:'
-lSLF07#2@71"Compile /Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#317528606#0(1553"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: 'HelloWorld' may not respond to '-addSpaceshipToGame'/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: (Messages without a matching method signature/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: will be assumed to return 'id' and accept/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:56: warning: '...' as arguments.)/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:59: warning: no '-initWithSpriteFileName:currentLayer:' method found/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:69: warning: no '-initWithScoreAndLayer:currentLayer:' method found/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld accelerometer:didAccelerate:]':/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:83: warning: unused variable 'prevY'/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld addSpaceshipToGame]':/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:127: warning: no '-initWithSpriteFileName:currentLayer:' method found/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m: In function '-[HelloWorld checkIfSpaceshipIsHit]':/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m:140: warning: 'Environment' may not respond to '-removeLifeByTag:'7(22@53"'HelloWorld' may not respond to '-addSpaceshipToGame'317528606#99#131#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#56#0#56#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317528606#230#123#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#56#0#56#0#0"0(22@55"No '-initWithSpriteFileName:currentLayer:' method found317528606#570#133#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#59#0#59#0#19"no '*' method found0(22@54"No '-initWithScoreAndLayer:currentLayer:' method found317528606#703#132#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#69#0#69#0#19"no '*' method found0(22@23"Unused variable 'prevY'317528606#958#101#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#83#0#83#0#19"unused variable '*'0(22@55"No '-initWithSpriteFileName:currentLayer:' method found317528606#1172#134#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#127#0#127#0#19"no '*' method found0(22@52"'Environment' may not respond to '-removeLifeByTag:'317528606#1422#131#0(6@63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m317528606#140#0#140#0#26"'*' may not respond to '*'0(0#0#63"/Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m8615429920#2100"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/HelloWorldScene.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloWorldScene.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScene.o /Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053047.824143
-e317053048.074662
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScene.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m317053047#317053048#0(0"0(0#0#57"/Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m8609717504#2026"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/HomeScene.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScene.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScreen.o /Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s314655979.764539
-e314655979.976888
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScreen.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.m314655979#314655980#0(0"0(0#0#58"/Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.m8626783232#2028"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-dqzmqtpeawcgzlgvftuqkhxgbwsp/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/HomeScreen.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HomeScreen.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/RootViewController.o /Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053044.456743
-e317053046.623787
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/RootViewController.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m: In function '-[RootViewController bannerViewDidLoadAd:]':
-o/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: 'RootViewController' may not respond to '-moveBannerOnScreen'
-o/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: (Messages without a matching method signature
-o/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: will be assumed to return 'id' and accept
-o/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: '...' as arguments.)
-lSLF07#2@74"Compile /Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m317053044#317053046#0(617"/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m: In function '-[RootViewController bannerViewDidLoadAd:]':/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: 'RootViewController' may not respond to '-moveBannerOnScreen'/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: (Messages without a matching method signature/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: will be assumed to return 'id' and accept/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m:20: warning: '...' as arguments.)2(22@61"'RootViewController' may not respond to '-moveBannerOnScreen'317053044#126#142#0(6@66"/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m311649416#20#0#20#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317053044#268#126#0(6@66"/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m311649416#20#0#20#0#0"0(0#0#66"/Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m8610143264#2044"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/RootViewController.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/RootViewController.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Scoreboard.o /Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053047.604952
-e317053047.760493
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Scoreboard.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m317053047#317053047#0(0"0(0#0#58"/Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m8609476608#2028"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/Scoreboard.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Scoreboard.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Spaceship.o /Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053047.459054
-e317053047.824043
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Spaceship.o
-x/Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m317053047#317053047#0(0"0(0#0#57"/Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m8610176800#2026"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/Classes/Spaceship.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/Spaceship.o0#
-
-CCompileC build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/main.o /Users/azamsharp/Documents/HelloCocos/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053044.014607
-e317053044.424744
-r1
-xCompileC
-xbuild/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/main.o
-x/Users/azamsharp/Documents/HelloCocos/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/azamsharp/Documents/HelloCocos/main.m317053044#317053044#0(0"0(0#0#44"/Users/azamsharp/Documents/HelloCocos/main.m8609328832#2008"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch -c /Users/azamsharp/Documents/HelloCocos/main.m -o /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/main.o0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/Background3.png Resources/Background3.png
-s315162072.458301
-e315162072.470778
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/Background3.png
-xResources/Background3.png
-lSLF07#2@30"Copy Resources/Background3.png315162072#315162072#0(0"0(0#0#63"/Users/azamsharp/Documents/HelloCocos/Resources/Background3.png8607305984#469"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/Background3.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/Default.png Resources/Default.png
-s315162072.452216
-e315162072.470408
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/Default.png
-xResources/Default.png
-lSLF07#2@26"Copy Resources/Default.png315162072#315162072#0(0"0(0#0#59"/Users/azamsharp/Documents/HelloCocos/Resources/Default.png8607931616#465"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/Default.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/HelloCocos HelloCocos
-s315161286.611778
-e315161286.632812
-r0
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/HelloCocos
-xHelloCocos
-opbxcp: HelloCocos: No such file or directory
-lSLF07#2@15"Copy HelloCocos315161286#315161286#0(45"pbxcp: HelloCocos: No such file or directory1(4@44"pbxcp: HelloCocos: No such file or directory315161286#18446744073709551615#0#0(6@0"315161286#0#0#0#0#0"0(0#0#48"/Users/azamsharp/Documents/HelloCocos/HelloCocos8610752000#454"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/HelloCocos /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app1#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/Icon.png Resources/Icon.png
-s315162072.455710
-e315162072.470628
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/Icon.png
-xResources/Icon.png
-lSLF07#2@23"Copy Resources/Icon.png315162072#315162072#0(0"0(0#0#56"/Users/azamsharp/Documents/HelloCocos/Resources/Icon.png8607616352#462"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/Icon.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/devil.png Resources/devil.png
-s315162072.466838
-e315162072.483775
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/devil.png
-xResources/devil.png
-lSLF07#2@24"Copy Resources/devil.png315162072#315162072#0(0"0(0#0#57"/Users/azamsharp/Documents/HelloCocos/Resources/devil.png8606483904#463"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/devil.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/fire.png Resources/fire.png
-s315162072.461710
-e315162072.480715
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/fire.png
-xResources/fire.png
-lSLF07#2@23"Copy Resources/fire.png315162072#315162072#0(0"0(0#0#56"/Users/azamsharp/Documents/HelloCocos/Resources/fire.png8607040608#462"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/fire.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/fire.pvr Resources/fire.pvr
-s315162072.463388
-e315162072.494230
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/fire.pvr
-xResources/fire.pvr
-lSLF07#2@23"Copy Resources/fire.pvr315162072#315162072#0(0"0(0#0#56"/Users/azamsharp/Documents/HelloCocos/Resources/fire.pvr8606899936#462"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/fire.pvr /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/fireball.wav Resources/fireball.wav
-s315162072.470850
-e315162072.490892
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/fireball.wav
-xResources/fireball.wav
-lSLF07#2@27"Copy Resources/fireball.wav315162072#315162072#0(0"0(0#0#60"/Users/azamsharp/Documents/HelloCocos/Resources/fireball.wav8606032000#466"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/fireball.wav /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/firewood.png Resources/firewood.png
-s315162072.465055
-e315162072.480826
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/firewood.png
-xResources/firewood.png
-lSLF07#2@27"Copy Resources/firewood.png315162072#315162072#0(0"0(0#0#60"/Users/azamsharp/Documents/HelloCocos/Resources/firewood.png8606571584#466"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/firewood.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/fps_images.png Resources/fps_images.png
-s315162072.454008
-e315162072.470527
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/fps_images.png
-xResources/fps_images.png
-lSLF07#2@29"Copy Resources/fps_images.png315162072#315162072#0(0"0(0#0#62"/Users/azamsharp/Documents/HelloCocos/Resources/fps_images.png8607759904#468"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/fps_images.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/laser.wav Resources/laser.wav
-s315162072.472539
-e315162072.491095
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/laser.wav
-xResources/laser.wav
-lSLF07#2@24"Copy Resources/laser.wav315162072#315162072#0(0"0(0#0#57"/Users/azamsharp/Documents/HelloCocos/Resources/laser.wav8605949248#463"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/laser.wav /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/small_spaceship.png Resources/small_spaceship.png
-s315162072.477036
-e315162072.495905
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/small_spaceship.png
-xResources/small_spaceship.png
-lSLF07#2@34"Copy Resources/small_spaceship.png315162072#315162072#0(0"0(0#0#67"/Users/azamsharp/Documents/HelloCocos/Resources/small_spaceship.png8605810752#473"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/small_spaceship.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/smiley.png Resources/smiley.png
-s315162072.460014
-e315162072.480595
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/smiley.png
-xResources/smiley.png
-lSLF07#2@25"Copy Resources/smiley.png315162072#315162072#0(0"0(0#0#58"/Users/azamsharp/Documents/HelloCocos/Resources/smiley.png8607098880#464"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/smiley.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/space_demon_home_screen.png Resources/space_demon_home_screen.png
-s315162072.478820
-e315162072.495277
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/space_demon_home_screen.png
-xResources/space_demon_home_screen.png
-lSLF07#2@42"Copy Resources/space_demon_home_screen.png315162072#315162072#0(0"0(0#0#75"/Users/azamsharp/Documents/HelloCocos/Resources/space_demon_home_screen.png8604533536#481"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/space_demon_home_screen.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CCpResource build/Debug-iphonesimulator/HelloCocos.app/spaceship.png Resources/spaceship.png
-s315162072.468519
-e315162072.482895
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/HelloCocos.app/spaceship.png
-xResources/spaceship.png
-lSLF07#2@28"Copy Resources/spaceship.png315162072#315162072#0(0"0(0#0#61"/Users/azamsharp/Documents/HelloCocos/Resources/spaceship.png8606264064#467"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/HelloCocos/Resources/spaceship.png /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-
-CGenerateDSYMFile /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app.dSYM /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos
-s317528606.650714
-e317528606.786224
-r1
-xGenerateDSYMFile
-x/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app.dSYM
-x/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/HelloCocos.app.dSYM build/Debug-iphonesimulator/HelloCocos.app/HelloCocos317528606#317528606#0(0"0(0#0#91"/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos8619280576#451"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos -o /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app.dSYM0#
-
-CLd /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos normal i386
-s317528606.434028
-e317528606.650607
-r1
-xLd
-x/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos
-xnormal
-xi386
-lSLF07#2@96"Link /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos317528606#317528606#0(0"0(0#0#0"8605787744#1142"    cd /Users/azamsharp/Documents/HelloCocos    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -filelist /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocos.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -weak_framework iAd -o /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/HelloCocos0#
-
-CPhaseScriptExecution "Run Script" /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Script-8D4EE74E12C832EC004A2BB8.sh
-s315161474.089478
-e315161474.109028
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Script-8D4EE74E12C832EC004A2BB8.sh
-lSLF07#2@36"Run custom shell script 'Run Script'315161474#315161474#0(0"0(0#0#0"8607947936#17329"    cd /Users/azamsharp/Documents/HelloCocos    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER azamsharp    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/azamsharp/Documents/HelloCocos/build    setenv BUILD_ROOT /Users/azamsharp/Documents/HelloCocos/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH HelloCocos.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH HelloCocos.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/HelloCocos.dst    setenv DWARF_DSYM_FILE_NAME HelloCocos.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH HelloCocos.app/Executables    setenv EXECUTABLE_FOLDER_PATH HelloCocos.app    setenv EXECUTABLE_NAME HelloCocos    setenv EXECUTABLE_PATH HelloCocos.app/HelloCocos    setenv FILE_LIST /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH HelloCocos.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME HelloCocos.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER HelloCocos_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "DEBUG COCOS2D_DEBUG=1 CD_DEBUG=1"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Resources/Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH HelloCocos.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH HelloCocos.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/HelloCocos.dst/Users/azamsharp/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER azamsharp    setenv INSTALL_PATH /Users/azamsharp/Applications    setenv INSTALL_ROOT /tmp/HelloCocos.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH HelloCocos.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal/i386/HelloCocos.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH HelloCocos.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_VERSION_ACTUAL 1065    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0605    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Objects-normal    setenv OBJROOT /Users/azamsharp/Documents/HelloCocos/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-all_load -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH HelloCocos.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/PkgInfo    setenv PKGINFO_PATH HelloCocos.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH HelloCocos.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH HelloCocos.app/PrivateHeaders    setenv PRODUCT_NAME HelloCocos    setenv PRODUCT_SETTINGS_PATH /Users/azamsharp/Documents/HelloCocos/Resources/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT HelloCocos    setenv PROJECT_DERIVED_FILE_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/DerivedSources    setenv PROJECT_DIR /Users/azamsharp/Documents/HelloCocos    setenv PROJECT_FILE_PATH /Users/azamsharp/Documents/HelloCocos/HelloCocos.xcodeproj    setenv PROJECT_NAME HelloCocos    setenv PROJECT_TEMP_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build    setenv PUBLIC_HEADERS_FOLDER_PATH HelloCocos.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH HelloCocos.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk    setenv SDK_NAME iphonesimulator4.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH HelloCocos.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH HelloCocos.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/azamsharp/Documents/HelloCocos    setenv SRCROOT /Users/azamsharp/Documents/HelloCocos    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1    setenv SYMBOL_REPOSITORY_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/SymbolRepositories    setenv SYMROOT /Users/azamsharp/Documents/HelloCocos/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME HelloCocos    setenv TARGET_BUILD_DIR /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator    setenv TARGET_NAME HelloCocos    setenv TARGET_TEMP_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build    setenv TEMP_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build    setenv TEMP_FILES_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build    setenv TEMP_FILE_DIR /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build    setenv TEMP_ROOT /Users/azamsharp/Documents/HelloCocos/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH HelloCocos.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER azamsharp    setenv USER_APPS_DIR /Users/azamsharp/Applications    setenv USER_LIBRARY_DIR /Users/azamsharp/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH HelloCocos.app/version.plist    setenv VERSION_INFO_BUILDER azamsharp    setenv VERSION_INFO_FILE HelloCocos_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HelloCocos  PROJECT:HelloCocos-\""    setenv WARNING_CFLAGS -Wall    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME HelloCocos.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0324    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/Script-8D4EE74E12C832EC004A2BB8.sh0#
-
-CProcessInfoPlistFile /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Info.plist Resources/Info.plist
-s315162072.442695
-e315162072.452128
-r1
-xProcessInfoPlistFile
-x/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Info.plist
-xResources/Info.plist
-lSLF07#2@28"Process Resources/Info.plist315162072#315162072#0(0"0(0#0#58"/Users/azamsharp/Documents/HelloCocos/Resources/Info.plist8601648832#484"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app/Info.plist0#
-
-CProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-bxmgftglmpkitvclbtshfucgcrlz/HelloCocos_Prefix.pch.gch HelloCocos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315162072.496002
-e315162072.501355
-r0
-xProcessPCH
-x/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-bxmgftglmpkitvclbtshfucgcrlz/HelloCocos_Prefix.pch.gch
-xHelloCocos_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: /Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch: No such file or directory
-oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
-oi686-apple-darwin10-gcc-4.2.1: no input files
-lSLF07#2@32"Precompile HelloCocos_Prefix.pch315162072#315162072#0(368"i686-apple-darwin10-gcc-4.2.1: /Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1315162072#18446744073709551615#0#0(1@0"0(0#0#59"/Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch8604455296#1898"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -c /Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch -o /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-bxmgftglmpkitvclbtshfucgcrlz/HelloCocos_Prefix.pch.gch1#
-
-CProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-dqzmqtpeawcgzlgvftuqkhxgbwsp/HelloCocos_Prefix.pch.gch HelloCocos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315161286.633115
-e315161287.400718
-r1
-xProcessPCH
-x/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-dqzmqtpeawcgzlgvftuqkhxgbwsp/HelloCocos_Prefix.pch.gch
-xHelloCocos_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile HelloCocos_Prefix.pch315161286#315161287#0(0"0(0#0#59"/Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch8610576928#1898"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -c /Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch -o /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-dqzmqtpeawcgzlgvftuqkhxgbwsp/HelloCocos_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch.gch HelloCocos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s317053040.614237
-e317053044.014440
-r1
-xProcessPCH
-x/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch.gch
-xHelloCocos_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile HelloCocos_Prefix.pch317053040#317053044#0(0"0(0#0#59"/Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch8317976366300490752#1898"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -c /Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch -o /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-drwtxctyoeshehgyszbktxevtlwo/HelloCocos_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-gnjihotajcuqgvayhczdfzkbylsi/HelloCocos_Prefix.pch.gch HelloCocos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s315162518.450622
-e315162519.499081
-r1
-xProcessPCH
-x/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-gnjihotajcuqgvayhczdfzkbylsi/HelloCocos_Prefix.pch.gch
-xHelloCocos_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile HelloCocos_Prefix.pch315162518#315162519#0(0"0(0#0#59"/Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch8615049216#1898"    cd /Users/azamsharp/Documents/HelloCocos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-generated-files.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-own-target-headers.hmap -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-all-target-headers.hmap -iquote /Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/HelloCocos-project-headers.hmap -Wall -F/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator -I/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/include -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources/i386 -I/Users/azamsharp/Documents/HelloCocos/build/HelloCocos.build/Debug-iphonesimulator/HelloCocos.build/DerivedSources -c /Users/azamsharp/Documents/HelloCocos/HelloCocos_Prefix.pch -o /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloCocos_Prefix-gnjihotajcuqgvayhczdfzkbylsi/HelloCocos_Prefix.pch.gch0#
-
-CTouch /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app
-s317528606.786307
-e317528606.789157
-r1
-xTouch
-x/Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app
-lSLF07#2@86"Touch /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app317528606#317528606#0(0"0(0#0#0"8618867424#341"    cd /Users/azamsharp/Documents/HelloCocos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/azamsharp/Documents/HelloCocos/build/Debug-iphonesimulator/HelloCocos.app0#
-

@@ -1,1729 +1,0 @@
-TSpaceDemon
-v7
-r0
-t317577630.750579
-cCheck dependencies
-cCpResource build/Debug-iphoneos/SpaceDemon.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Info.plist Resources/Info.plist
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Default.png Resources/Default.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fps_images.png Resources/fps_images.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Icon.png Resources/Icon.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Background3.png Resources/Background3.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/smiley.png Resources/smiley.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fire.png Resources/fire.png
-cCpResource build/Debug-iphoneos/SpaceDemon.app/fire.pvr Resources/fire.pvr
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/firewood.png Resources/firewood.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/devil.png Resources/devil.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/spaceship.png Resources/spaceship.png
-cCpResource build/Debug-iphoneos/SpaceDemon.app/fireball.wav Resources/fireball.wav
-cCpResource build/Debug-iphoneos/SpaceDemon.app/laser.wav Resources/laser.wav
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/small_spaceship.png Resources/small_spaceship.png
-cCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/space_demon_home_screen.png Resources/space_demon_home_screen.png
-cProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch.gch SpaceDemon_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/main.o /Users/azamsharp/Documents/SpaceDemon/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloCocosAppDelegate.o /Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/GameScene.o /Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/RootViewController.o /Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Demon.o /Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Environment.o /Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/CollisionManager.o /Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Spaceship.o /Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Scoreboard.o /Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/BaseEntity.o /Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HomeScene.o /Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessProductPackaging "/Users/azamsharp/Library/MobileDevice/Provisioning Profiles/5C52DC90-680A-4912-B13F-CD5EE85D6A27.mobileprovision" /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004C68BB8400000000001D26C0
-t1281932164
-s1910464
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
-c000000004C68BB790000000000000703
-t1281932153
-s1795
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004C5A51EA000000000039EF90
-t1280987626
-s3796880
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004C5A51980000000000000A23
-t1280987544
-s2595
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CFURL.h
-c000000004C5A4FA4000000000000A48C
-t1280987044
-s42124
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
-c000000004C5A4FF800000000000022F0
-t1280987128
-s8944
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
-c000000004C5A4FF80000000000002650
-t1280987128
-s9808
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/al.h
-c000000004C5A521400000000000064FD
-t1280987668
-s25853
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenAL.framework/Headers/alc.h
-c000000004C5A52140000000000001F45
-t1280987668
-s8005
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
-c000000004C5A52180000000000045910
-t1280987672
-s284944
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
-c000000004C5A5504000000000000094F
-t1280988420
-s2383
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
-c000000004C5A55040000000000000A61
-t1280988420
-s2657
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
-c000000004C5A55040000000000009369
-t1280988420
-s37737
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
-c000000004C5A55040000000000003C4A
-t1280988420
-s15434
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C5A5516000000000002D690
-t1280988438
-s186000
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A556300000000000000C4
-t1280988515
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A56D600000000002573D0
-t1280988886
-s2454480
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/iAd.framework/Headers/iAd.h
-c000000004C6C32360000000000000071
-t1282159158
-s113
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/iAd.framework/iAd
-c000000004C6C32410000000000099800
-t1282159169
-s628736
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/inttypes.h
-c000000004C57909100000000000027D1
-t1280807057
-s10193
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/math.h
-c000000004C57902B00000000000004F1
-t1280806955
-s1265
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/objc/objc.h
-c000000004C5A49150000000000000A2F
-t1280985365
-s2607
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/stdlib.h
-c000000004C5790910000000000002DF5
-t1280807057
-s11765
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/string.h
-c000000004C5790910000000000001731
-t1280807057
-s5937
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/sys/time.h
-c000000004C5A4AB40000000000001E17
-t1280985780
-s7703
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
-c000000004C44E63A0000000000003197
-t1279583802
-s12695
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/lib/libz.dylib
-c000000004C5A423D0000000000020FF0
-t1280983613
-s135152
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.h
-c000000004D0919CC0000000000000122
-t1292442060
-s290
-i<Foundation/Foundation.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m
-c000000004D10FDF7000000000000016D
-t1292959223
-s365
-i"BaseEntity.h"
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.h
-c000000004D0791990000000000000149
-t1292341657
-s329
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m
-c000000004D10CF670000000000000351
-t1292947303
-s849
-i"CollisionManager.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.h
-c000000004D1127FD0000000000000299
-t1292969981
-s665
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"Spaceship.h"
-i"BaseEntity.h"
-i"SimpleAudioEngine.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m
-c000000004D112B08000000000000087D
-t1292970760
-s2173
-i"Demon.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.h
-c000000004D11004000000000000001D5
-t1292959808
-s469
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"SimpleAudioEngine.h"
-i"Spaceship.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m
-c000000004D110B4F0000000000000885
-t1292962639
-s2181
-i"Environment.h"
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.h
-c000000004D3DA1750000000000000422
-t1295884661
-s1058
-i"cocos2d.h"
-i"CollisionManager.h"
-i"Demon.h"
-i"Spaceship.h"
-i"Scoreboard.h"
-i"Environment.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m
-c000000004D3DA1E500000000000011F9
-t1295884773
-s4601
-i"GameScene.h"
-i"Environment.h"
-i"Demon.h"
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.h
-c000000004CBB85670000000000000140
-t1287357799
-s320
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m
-c000000004D3DA1B400000000000007C3
-t1295884724
-s1987
-i"HelloCocosAppDelegate.h"
-i"cocos2d.h"
-i"GameScene.h"
-i"RootViewController.h"
-i"HomeScene.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.h
-c000000004D10FF310000000000000423
-t1292959537
-s1059
-i"cocos2d.h"
-i"CollisionManager.h"
-i"Demon.h"
-i"Spaceship.h"
-i"Scoreboard.h"
-i"Environment.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m
-c000000004D3CF5C10000000000001202
-t1295840705
-s4610
-i"HelloWorldScene.h"
-i"Environment.h"
-i"Demon.h"
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.h
-c000000004D3DA1A60000000000000114
-t1295884710
-s276
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"GameScene.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m
-c000000004D3DA19E0000000000000420
-t1295884702
-s1056
-i"HomeScene.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.h
-c000000004CDF72DC0000000000000189
-t1289712348
-s393
-i<Foundation/Foundation.h>
-i<iAd/iAd.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m
-c000000004CE32D080000000000000AC1
-t1289956616
-s2753
-i"RootViewController.h"
-i"HelloWorldScene.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.h
-c000000004D09219B00000000000001F5
-t1292444059
-s501
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"BaseEntity.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m
-c000000004D09224D0000000000000325
-t1292444237
-s805
-i"Scoreboard.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.h
-c000000004D18075F0000000000000305
-t1293420383
-s773
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-i"BaseEntity.h"
-i"SimpleAudioEngine.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m
-c000000004D180983000000000000094F
-t1293420931
-s2383
-i"Spaceship.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/Background3.png
-c000000004CBBBCA4000000000002920F
-t1287371940
-s168463
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/Default.png
-c000000004C87976300000000000077AB
-t1283954531
-s30635
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/Icon.png
-c000000004D0FD302000000000000246F
-t1292882690
-s9327
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/devil.png
-c000000004CF715ED0000000000001501
-t1291261421
-s5377
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/fire.png
-c000000004C3E2DDE00000000000002D2
-t1279143390
-s722
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/fire.pvr
-c000000004C3E2DDE0000000000000134
-t1279143390
-s308
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/fireball.wav
-c000000004D0E2E930000000000054A46
-t1292775059
-s346694
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/firewood.png
-c000000004CE97C800000000000001E6D
-t1290370176
-s7789
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/fps_images.png
-c000000004CBBBCA3000000000000183B
-t1287371939
-s6203
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/laser.wav
-c000000004D0E2E9E000000000002F698
-t1292775070
-s194200
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/small_spaceship.png
-c000000004D10C8AD0000000000000406
-t1292945581
-s1030
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/smiley.png
-c000000004CAE80BA0000000000000A19
-t1286504634
-s2585
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/space_demon_home_screen.png
-c000000004D1110F80000000000010601
-t1292964088
-s67073
-
-N/Users/azamsharp/Documents/SpaceDemon/Resources/spaceship.png
-c000000004CF86E970000000000001980
-t1291349655
-s6528
-
-N/Users/azamsharp/Documents/SpaceDemon/SpaceDemon_Prefix.pch
-c000000004D18C81300000000000000AD
-t1293469715
-s173
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app
-t2
-s0
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app.dSYM
-t2
-s0
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Background3.png
-t1295884828
-s168463
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Default.png
-t1295884828
-s31932
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Icon.png
-t1295884828
-s10022
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Info.plist
-t1295884827
-s755
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/PkgInfo
-t1295884828
-s8
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/ResourceRules.plist
-t1295884828
-s485
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon
-t2
-s0
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/devil.png
-t1295884828
-s5060
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision
-t1295884830
-s7156
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fire.png
-t1295884828
-s740
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fire.pvr
-t1295884828
-s308
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fireball.wav
-t1295884828
-s346694
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/firewood.png
-t1295884828
-s8466
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fps_images.png
-t1295884828
-s7188
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/laser.wav
-t1295884828
-s194200
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/small_spaceship.png
-t1295884828
-s1113
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/smiley.png
-t1295884828
-s2585
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/space_demon_home_screen.png
-t1295884829
-s60865
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/spaceship.png
-t1295884828
-s7389
-
-N/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/libcocos2d libraries.a
-c000000004D3DA21B00000000003D07B8
-t1295884827
-s3999672
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/BaseEntity.o
-t1295884830
-s44264
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/CollisionManager.o
-t1295884830
-s11804
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Demon.o
-t1295884830
-s30092
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Environment.o
-t1295884830
-s56052
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/GameScene.o
-t1295884829
-s72740
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloCocosAppDelegate.o
-t1295884829
-s60824
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloWorldScene.o
-t1295884605
-s72824
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HomeScene.o
-t1295884830
-s52404
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/RootViewController.o
-t2
-s0
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Scoreboard.o
-t1295884830
-s20924
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/SpaceDemon.LinkFileList
-c000000004D3DA21B0000000000000581
-t1295884827
-s1409
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Spaceship.o
-t1295884830
-s63152
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/main.o
-t1295884829
-s6684
-
-N/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent
-t1295884830
-s426
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/CocosDenshion/CDAudioManager.h
-c000000004CC5E293000000000000225E
-t1288037011
-s8798
-i"CocosDenshion.h"
-i<AVFoundation/AVFoundation.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/CocosDenshion/CDConfig.h
-c000000004CC5E2930000000000000A9A
-t1288037011
-s2714
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/CocosDenshion/CDOpenALSupport.h
-c000000004CE5F2770000000000000CF9
-t1290138231
-s3321
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<CoreFoundation/CFURL.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/CocosDenshion/CocosDenshion.h
-c000000004CC5E29300000000000035AC
-t1288037011
-s13740
-i<UIKit/UIKit.h>
-i<OpenAL/al.h>
-i<OpenAL/alc.h>
-i<AudioToolbox/AudioToolbox.h>
-i"CDConfig.h"
-i"CDOpenALSupport.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/CocosDenshion/SimpleAudioEngine.h
-c000000004CE5F2770000000000000EE0
-t1290138231
-s3808
-i"CDAudioManager.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCAction.h
-c000000004C8D3F38000000000000165C
-t1284325176
-s5724
-i<UIKit/UIKit.h>
-i<sys/time.h>
-i"ccTypes.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCActionManager.h
-c000000004C8D3F380000000000001072
-t1284325176
-s4210
-i"CCAction.h"
-i"Support/ccCArray.h"
-i"Support/uthash.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCAtlasNode.h
-c000000004CE5F2770000000000000C4A
-t1290138231
-s3146
-i"CCTextureAtlas.h"
-i"CCNode.h"
-i"CCProtocols.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCBitmapFontAtlas.h
-c000000004CC5E2930000000000001533
-t1288037011
-s5427
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-i"Support/uthash.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCBlockSupport.h
-c000000004C87974D00000000000007AA
-t1283954509
-s1962
-i<Foundation/Foundation.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCCamera.h
-c000000004C87974D0000000000000B48
-t1283954509
-s2888
-i"CCNode.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCCameraAction.h
-c000000004CE5F27700000000000009AA
-t1290138231
-s2474
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCCompatibility.h
-c000000004CE5F2770000000000003891
-t1290138231
-s14481
-i<Foundation/Foundation.h>
-i"cocos2d.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCConfiguration.h
-c000000004CE5F2770000000000000A89
-t1290138231
-s2697
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCDirector.h
-c000000004C87974D00000000000041A6
-t1283954509
-s16806
-i"ccConfig.h"
-i"ccTypes.h"
-i"Support/EAGLView.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCDrawingPrimitives.h
-c000000004C87974D0000000000000B1A
-t1283954509
-s2842
-i<CoreGraphics/CGGeometry.h>
-i<objc/objc.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCEaseAction.h
-c000000004CC5E2930000000000001671
-t1288037011
-s5745
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCGrabber.h
-c000000004CC5E29300000000000005FA
-t1288037011
-s1530
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCGrid.h
-c000000004C8D3F380000000000000E50
-t1284325176
-s3664
-i<UIKit/UIKit.h>
-i"CCNode.h"
-i"CCCamera.h"
-i"ccTypes.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCGrid3DAction.h
-c000000004C87974D00000000000019DF
-t1283954509
-s6623
-i"CCGridAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCGridAction.h
-c000000004CE5F27700000000000014A7
-t1290138231
-s5287
-i<UIKit/UIKit.h>
-i"CCIntervalAction.h"
-i"CCInstantAction.h"
-i"CCGrid.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCInstantAction.h
-c000000004C8D3F380000000000001178
-t1284325176
-s4472
-i<UIKit/UIKit.h>
-i"CCAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCIntervalAction.h
-c000000004CC5E2930000000000003266
-t1288037011
-s12902
-i"CCNode.h"
-i"CCAction.h"
-i"CCProtocols.h"
-i<sys/time.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCLabel.h
-c000000004CC5E2930000000000000A19
-t1288037011
-s2585
-i"CCTexture2D.h"
-i"CCSprite.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCLabelAtlas.h
-c000000004CC5E293000000000000098E
-t1288037011
-s2446
-i"CCAtlasNode.h"
-i"CCTextureAtlas.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCLayer.h
-c000000004C910CF7000000000000139E
-t1284574455
-s5022
-i<UIKit/UIKit.h>
-i"CCProtocols.h"
-i"CCNode.h"
-i"CCTouchDelegateProtocol.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCMenu.h
-c000000004C8D3F380000000000000AEE
-t1284325176
-s2798
-i<UIKit/UIKit.h>
-i"CCMenuItem.h"
-i"CCLayer.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCMenuItem.h
-c000000004C87974D00000000000031FC
-t1283954509
-s12796
-i"CCBlockSupport.h"
-i"CCNode.h"
-i"CCProtocols.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCMotionStreak.h
-c000000004CE5F2770000000000000B2A
-t1290138231
-s2858
-i<Foundation/Foundation.h>
-i"CCNode.h"
-i"CCRibbon.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCNode.h
-c000000004CC5E2930000000000003E93
-t1288037011
-s16019
-i<OpenGLES/ES1/gl.h>
-i"CCAction.h"
-i"ccTypes.h"
-i"CCTexture2D.h"
-i"CCProtocols.h"
-i"ccConfig.h"
-i"Support/CCArray.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCPVRTexture.h
-c000000004CC5E2930000000000000CA5
-t1288037011
-s3237
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCPageTurn3DAction.h
-c000000004CC5E2930000000000000644
-t1288037011
-s1604
-i"CCGrid3DAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCPageTurnTransition.h
-c000000004CE5F27700000000000008F5
-t1290138231
-s2293
-i"CCTransition.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCParallaxNode.h
-c000000004C8D3F38000000000000075B
-t1284325176
-s1883
-i"CCNode.h"
-i"Support/ccCArray.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCParticleExamples.h
-c000000004C87974D00000000000008C1
-t1283954509
-s2241
-i"CCPointParticleSystem.h"
-i"CCQuadParticleSystem.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCParticleSystem.h
-c000000004CE5F2770000000000003694
-t1290138231
-s13972
-i"CCProtocols.h"
-i"CCNode.h"
-i"ccTypes.h"
-i"ccConfig.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCPointParticleSystem.h
-c000000004C8D3F380000000000000762
-t1284325176
-s1890
-i"CCParticleSystem.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCProgressTimer.h
-c000000004C8D3F380000000000000B48
-t1284325176
-s2888
-i<Foundation/Foundation.h>
-i"CCSprite.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCProgressTimerActions.h
-c000000004CE5F277000000000000088D
-t1290138231
-s2189
-i<Foundation/Foundation.h>
-i"CCProgressTimer.h"
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCPropertyAction.h
-c000000004CC5E2930000000000000941
-t1288037011
-s2369
-i<Foundation/Foundation.h>
-i"CCIntervalAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCProtocols.h
-c000000004CE5F2770000000000000E35
-t1290138231
-s3637
-i"ccTypes.h"
-i"CCTexture2D.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCQuadParticleSystem.h
-c000000004C8D3F3800000000000009A2
-t1284325176
-s2466
-i"CCParticleSystem.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCRadialTransition.h
-c000000004C8D3F3800000000000005F2
-t1284325176
-s1522
-i"CCTransition.h"
-i"CCProgressTimer.h"
-i"CCProgressTimerActions.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCRenderTexture.h
-c000000004C8D3F380000000000000A68
-t1284325176
-s2664
-i<Foundation/Foundation.h>
-i"CCNode.h"
-i"CCSprite.h"
-i"Support/OpenGL_Internal.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCRibbon.h
-c000000004C87974D0000000000000FCE
-t1283954509
-s4046
-i"CCNode.h"
-i"CCTexture2D.h"
-i"CCProtocols.h"
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCScene.h
-c000000004CE5F2770000000000000691
-t1290138231
-s1681
-i<UIKit/UIKit.h>
-i"CCNode.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCScheduler.h
-c000000004CC5E29300000000000019FA
-t1288037011
-s6650
-i<Foundation/Foundation.h>
-i"Support/uthash.h"
-i"ccTypes.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCSprite.h
-c000000004C8D3F380000000000002EA9
-t1284325176
-s11945
-i"CCNode.h"
-i"CCProtocols.h"
-i"CCTextureAtlas.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCSpriteFrame.h
-c000000004CC5E29300000000000013F5
-t1288037011
-s5109
-i<Foundation/Foundation.h>
-i"CCNode.h"
-i"CCProtocols.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCSpriteFrameCache.h
-c000000004C8D3F380000000000000FF9
-t1284325176
-s4089
-i<Foundation/Foundation.h>
-i"CCSpriteFrame.h"
-i"CCTexture2D.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCSpriteSheet.h
-c000000004C8D3F380000000000001762
-t1284325176
-s5986
-i"CCNode.h"
-i"CCProtocols.h"
-i"CCTextureAtlas.h"
-i"ccMacros.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTMXLayer.h
-c000000004C8D3F380000000000001820
-t1284325176
-s6176
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTMXObjectGroup.h
-c000000004C8D3F3800000000000008ED
-t1284325176
-s2285
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTMXTiledMap.h
-c000000004C910CF700000000000014EC
-t1284574455
-s5356
-i"CCAtlasNode.h"
-i"CCSpriteSheet.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTMXXMLParser.h
-c000000004C8D3F3800000000000015E1
-t1284325176
-s5601
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTexture2D.h
-c000000004C8D3F38000000000000262B
-t1284325176
-s9771
-i<UIKit/UIKit.h>
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTextureAtlas.h
-c000000004C87974D0000000000001477
-t1283954509
-s5239
-i"CCTexture2D.h"
-i"ccTypes.h"
-i"ccConfig.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTextureCache.h
-c000000004CC5E2930000000000001303
-t1288037011
-s4867
-i<Foundation/Foundation.h>
-i<CoreGraphics/CGImage.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTileMapAtlas.h
-c000000004C8D3F380000000000000B72
-t1284325176
-s2930
-i"CCTextureAtlas.h"
-i"CCAtlasNode.h"
-i"Support/TGAlib.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTiledGridAction.h
-c000000004C910CF70000000000001A15
-t1284574455
-s6677
-i"CCGridAction.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTouchDelegateProtocol.h
-c000000004CC5E2930000000000000AC5
-t1288037011
-s2757
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTouchDispatcher.h
-c000000004C910CF70000000000000FC6
-t1284574455
-s4038
-i"CCTouchDelegateProtocol.h"
-i"Support/EAGLView.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTouchHandler.h
-c000000004C87974D0000000000000C9C
-t1283954509
-s3228
-i"CCTouchDelegateProtocol.h"
-i"CCTouchDispatcher.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/CCTransition.h
-c000000004C8D3F380000000000002130
-t1284325176
-s8496
-i"CCScene.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/CCArray.h
-c000000004C87974D0000000000000BBB
-t1283954509
-s3003
-i"ccCArray.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/CCFileUtils.h
-c000000004CE5F277000000000000058C
-t1290138231
-s1420
-i<Foundation/Foundation.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/CCProfiling.h
-c000000004C87974D00000000000006E9
-t1283954509
-s1769
-i<Foundation/Foundation.h>
-i<sys/time.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/CGPointExtension.h
-c000000004C910CF70000000000001E13
-t1284574455
-s7699
-i<CoreGraphics/CGGeometry.h>
-i<math.h>
-i<objc/objc.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/EAGLView.h
-c000000004CC5E29300000000000017DD
-t1288037011
-s6109
-i<UIKit/UIKit.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/EAGLDrawable.h>
-i<OpenGLES/ES1/gl.h>
-i<OpenGLES/ES1/glext.h>
-i"ESRenderer.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/ESRenderer.h
-c000000004C8D3F3800000000000005FB
-t1284325176
-s1531
-i<QuartzCore/QuartzCore.h>
-i<OpenGLES/EAGL.h>
-i<OpenGLES/EAGLDrawable.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/OpenGL_Internal.h
-c000000004C910CF700000000000011A7
-t1284574455
-s4519
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/TGAlib.h
-c000000004C8D3F380000000000000444
-t1284325176
-s1092
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/ccCArray.h
-c000000004C910CF70000000000003095
-t1284574455
-s12437
-i<Foundation/Foundation.h>
-i<stdlib.h>
-i<string.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/Support/uthash.h
-c000000004CC5E294000000000000FB13
-t1288037012
-s64275
-i<string.h>
-i<stddef.h>
-i<inttypes.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/ccConfig.h
-c000000004CC5E2940000000000001ABD
-t1288037012
-s6845
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/ccMacros.h
-c000000004C910CF70000000000001740
-t1284574455
-s5952
-i<math.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/ccTypes.h
-c000000004C910CF70000000000001651
-t1284574455
-s5713
-i<objc/objc.h>
-i<CoreGraphics/CGGeometry.h>
-i<OpenGLES/ES1/gl.h>
-
-N/Users/azamsharp/Documents/SpaceDemon/libs/cocos2d/cocos2d.h
-c000000004CE5F2770000000000000E62
-t1290138231
-s3682
-i"ccConfig.h"
-i"CCBlockSupport.h"
-i"CCAction.h"
-i"CCCamera.h"
-i"CCCameraAction.h"
-i"CCProtocols.h"
-i"CCNode.h"
-i"CCDirector.h"
-i"CCTouchDispatcher.h"
-i"CCTouchDelegateProtocol.h"
-i"CCInstantAction.h"
-i"CCIntervalAction.h"
-i"CCEaseAction.h"
-i"CCLabel.h"
-i"CCLayer.h"
-i"CCMenu.h"
-i"CCMenuItem.h"
-i"CCParticleSystem.h"
-i"CCPointParticleSystem.h"
-i"CCQuadParticleSystem.h"
-i"CCParticleExamples.h"
-i"CCDrawingPrimitives.h"
-i"CCScene.h"
-i"CCScheduler.h"
-i"CCSprite.h"
-i"CCSpriteFrame.h"
-i"CCSpriteSheet.h"
-i"CCSpriteFrameCache.h"
-i"CCTextureCache.h"
-i"CCTransition.h"
-i"CCTextureAtlas.h"
-i"CCLabelAtlas.h"
-i"CCAtlasNode.h"
-i"CCEaseAction.h"
-i"CCTiledGridAction.h"
-i"CCGrabber.h"
-i"CCGrid.h"
-i"CCGrid3DAction.h"
-i"CCGridAction.h"
-i"CCBitmapFontAtlas.h"
-i"CCParallaxNode.h"
-i"CCActionManager.h"
-i"CCTMXTiledMap.h"
-i"CCTMXLayer.h"
-i"CCTMXObjectGroup.h"
-i"CCTMXXMLParser.h"
-i"CCTileMapAtlas.h"
-i"CCRenderTexture.h"
-i"CCMotionStreak.h"
-i"CCPageTurn3DAction.h"
-i"CCPageTurnTransition.h"
-i"CCTexture2D.h"
-i"CCPVRTexture.h"
-i"CCTouchHandler.h"
-i"CCConfiguration.h"
-i"CCRadialTransition.h"
-i"CCProgressTimerActions.h"
-i"CCPropertyAction.h"
-i"ccTypes.h"
-i"ccMacros.h"
-i"Support/OpenGL_Internal.h"
-i"Support/EAGLView.h"
-i"Support/CCFileUtils.h"
-i"Support/CGPointExtension.h"
-i"Support/ccCArray.h"
-i"Support/CCArray.h"
-i"Support/CCProfiling.h"
-i"CCCompatibility.h"
-
-N/Users/azamsharp/Documents/SpaceDemon/main.m
-c000000004CBB85680000000000000163
-t1287357800
-s355
-i<UIKit/UIKit.h>
-
-N/Users/azamsharp/Library/MobileDevice/Provisioning Profiles/5C52DC90-680A-4912-B13F-CD5EE85D6A27.mobileprovision
-c000000004D0589E70000000000001BF4
-t1292208615
-s7156
-
-N/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch.gch
-t1295884829
-s9844272
-
-NResources/Info.plist
-c000000004C87974D000000000000038E
-t1283954509
-s910
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies317577627#317577627#0(0"0(0#1#0"8621874240#0"0#
-
-CCodeSign /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app
-s317577421.611518
-e317577423.067223
-r1
-xCodeSign
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app
-lSLF07#2@44"CodeSign build/Debug-iphoneos/SpaceDemon.app317577421#317577423#0(0"0(0#0#73"/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app8608495840#722"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Mohammad Azam (FWMDMM5E66)" --resource-rules=/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/ResourceRules.plist --entitlements /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/BaseEntity.o /Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577630.461811
-e317577630.612497
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/BaseEntity.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m317577630#317577630#0(0"0(0#0#58"/Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m8621452960#1903"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/BaseEntity.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/BaseEntity.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/CollisionManager.o /Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577630.216885
-e317577630.337107
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/CollisionManager.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m317577630#317577630#0(0"0(0#0#64"/Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m8620941888#1915"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/CollisionManager.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/CollisionManager.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Demon.o /Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577629.985479
-e317577630.216771
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Demon.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m: In function '-[Demon hit]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m:29: warning: unused variable 'callback'
-lSLF07#2@61"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m317577629#317577630#0(177"/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m: In function '-[Demon hit]':/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m:29: warning: unused variable 'callback'1(22@26"Unused variable 'callback'317577630#83#94#0(6@53"/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m314663560#29#0#29#0#19"unused variable '*'0(0#0#53"/Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m8610963136#1893"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/Demon.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Demon.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Environment.o /Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577630.025747
-e317577630.284920
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Environment.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m: In function '-[Environment displayGameOverMessage]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m: In function '-[Environment setup]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:75: warning: local declaration of 'windowSize' hides instance variable
-o/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:79: warning: local declaration of 'windowSize' hides instance variable
-lSLF07#2@67"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m317577630#317577630#0(735"/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m: In function '-[Environment displayGameOverMessage]':/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:28: warning: local declaration of 'windowSize' hides instance variable/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m: In function '-[Environment setup]':/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:75: warning: local declaration of 'windowSize' hides instance variable/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m:79: warning: local declaration of 'windowSize' hides instance variable4(22@57"Local declaration of 'windowSize' hides instance variable317577630#114#131#0(6@59"/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m314655439#28#0#28#0#0"0(22@57"Local declaration of 'windowSize' hides instance variable317577630#245#131#0(6@59"/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m314655439#28#0#28#0#0"0(22@57"Local declaration of 'windowSize' hides instance variable317577630#473#131#0(6@59"/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m314655439#75#0#75#0#0"0(22@57"Local declaration of 'windowSize' hides instance variable317577630#604#131#0(6@59"/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m314655439#79#0#79#0#0"0(0#0#59"/Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m8610732928#1905"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/Environment.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Environment.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/GameScene.o /Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577629.714239
-e317577629.985218
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/GameScene.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene init]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: 'GameScene' may not respond to '-addSpaceshipToGame'
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: (Messages without a matching method signature
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: will be assumed to return 'id' and accept
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: '...' as arguments.)
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:61: warning: no '-initWithSpriteFileName:currentLayer:' method found
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:71: warning: no '-initWithScoreAndLayer:currentLayer:' method found
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene accelerometer:didAccelerate:]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:90: warning: statement with no effect
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:85: warning: unused variable 'prevY'
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene addSpaceshipToGame]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:135: warning: no '-initWithSpriteFileName:currentLayer:' method found
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene checkIfSpaceshipIsHit]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:148: warning: 'Environment' may not respond to '-removeLifeByTag:'
-lSLF07#2@65"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577629#317577629#0(1566"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene init]':/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: 'GameScene' may not respond to '-addSpaceshipToGame'/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: (Messages without a matching method signature/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: will be assumed to return 'id' and accept/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:58: warning: '...' as arguments.)/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:61: warning: no '-initWithSpriteFileName:currentLayer:' method found/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:71: warning: no '-initWithScoreAndLayer:currentLayer:' method found/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene accelerometer:didAccelerate:]':/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:90: warning: statement with no effect/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:85: warning: unused variable 'prevY'/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene addSpaceshipToGame]':/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:135: warning: no '-initWithSpriteFileName:currentLayer:' method found/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m: In function '-[GameScene checkIfSpaceshipIsHit]':/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m:148: warning: 'Environment' may not respond to '-removeLifeByTag:'8(22@52"'GameScene' may not respond to '-addSpaceshipToGame'317577629#92#124#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#58#0#58#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317577629#216#117#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#58#0#58#0#0"0(22@55"No '-initWithSpriteFileName:currentLayer:' method found317577629#538#127#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#61#0#61#0#19"no '*' method found0(22@54"No '-initWithScoreAndLayer:currentLayer:' method found317577629#665#126#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#71#0#71#0#19"no '*' method found0(22@24"Statement with no effect317577629#907#96#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#90#0#90#0#0"0(22@23"Unused variable 'prevY'317577629#1003#95#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#85#0#85#0#19"unused variable '*'0(22@55"No '-initWithSpriteFileName:currentLayer:' method found317577629#1204#128#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#135#0#135#0#19"no '*' method found0(22@52"'Environment' may not respond to '-removeLifeByTag:'317577629#1441#125#0(6@57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m317577573#148#0#148#0#26"'*' may not respond to '*'0(0#0#57"/Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m8612740864#1901"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/GameScene.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/GameScene.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloCocosAppDelegate.o /Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577629.663910
-e317577629.899188
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloCocosAppDelegate.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m317577629#317577629#0(0"0(0#0#69"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m8613591328#1925"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/HelloCocosAppDelegate.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloCocosAppDelegate.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloWorldScene.o /Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577404.753127
-e317577405.039108
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloWorldScene.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: 'HelloWorld' may not respond to '-addSpaceshipToGame'
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: (Messages without a matching method signature
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: will be assumed to return 'id' and accept
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: '...' as arguments.)
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:61: warning: no '-initWithSpriteFileName:currentLayer:' method found
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:71: warning: no '-initWithScoreAndLayer:currentLayer:' method found
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld accelerometer:didAccelerate:]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:90: warning: statement with no effect
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:85: warning: unused variable 'prevY'
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld addSpaceshipToGame]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:135: warning: no '-initWithSpriteFileName:currentLayer:' method found
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld checkIfSpaceshipIsHit]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:148: warning: 'Environment' may not respond to '-removeLifeByTag:'
-lSLF07#2@71"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317577404#317577405#0(1655"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: 'HelloWorld' may not respond to '-addSpaceshipToGame'/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: (Messages without a matching method signature/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: will be assumed to return 'id' and accept/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:58: warning: '...' as arguments.)/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:61: warning: no '-initWithSpriteFileName:currentLayer:' method found/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:71: warning: no '-initWithScoreAndLayer:currentLayer:' method found/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld accelerometer:didAccelerate:]':/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:90: warning: statement with no effect/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:85: warning: unused variable 'prevY'/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld addSpaceshipToGame]':/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:135: warning: no '-initWithSpriteFileName:currentLayer:' method found/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m: In function '-[HelloWorld checkIfSpaceshipIsHit]':/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m:148: warning: 'Environment' may not respond to '-removeLifeByTag:'8(22@53"'HelloWorld' may not respond to '-addSpaceshipToGame'317577404#99#131#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#58#0#58#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317577404#230#123#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#58#0#58#0#0"0(22@55"No '-initWithSpriteFileName:currentLayer:' method found317577404#570#133#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#61#0#61#0#19"no '*' method found0(22@54"No '-initWithScoreAndLayer:currentLayer:' method found317577404#703#132#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#71#0#71#0#19"no '*' method found0(22@24"Statement with no effect317577404#958#102#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#90#0#90#0#0"0(22@23"Unused variable 'prevY'317577404#1060#101#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#85#0#85#0#19"unused variable '*'0(22@55"No '-initWithSpriteFileName:currentLayer:' method found317577404#1274#134#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#135#0#135#0#19"no '*' method found0(22@52"'Environment' may not respond to '-removeLifeByTag:'317577404#1524#131#0(6@63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m317533505#148#0#148#0#26"'*' may not respond to '*'0(0#0#63"/Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m8608224672#1913"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/HelloWorldScene.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HelloWorldScene.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HomeScene.o /Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577630.548879
-e317577630.727748
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HomeScene.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m317577630#317577630#0(0"0(0#0#57"/Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m8620479776#1901"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/HomeScene.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/HomeScene.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/RootViewController.o /Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577629.899290
-e317577630.025649
-r0
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/RootViewController.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:10:29: error: HelloWorldScene.h: No such file or directory
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m: In function '-[RootViewController bannerViewDidLoadAd:]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: 'RootViewController' may not respond to '-moveBannerOnScreen'
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: (Messages without a matching method signature
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: will be assumed to return 'id' and accept
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: '...' as arguments.)
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:86: error: 'HelloWorld' undeclared (first use in this function)
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:86: error: (Each undeclared identifier is reported only once
-o/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:86: error: for each function it appears in.)
-o{standard input}:399:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L32"
-o{standard input}:399:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
-o{standard input}:309:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L24"
-o{standard input}:309:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
-o{standard input}:308:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L23"
-o{standard input}:308:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
-o{standard input}:304:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L22"
-o{standard input}:304:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
-o{standard input}:303:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L21"
-o{standard input}:303:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
-o{standard input}:302:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L20"
-o{standard input}:302:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression
-o{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L15"
-o{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
-o{standard input}:221:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L14"
-o{standard input}:221:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
-o{standard input}:220:non-relocatable subtraction expression, "L_CGRectZero$non_lazy_ptr" minus "L13"
-o{standard input}:220:symbol: "L_CGRectZero$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L12"
-o{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
-o{standard input}:218:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L11"
-o{standard input}:218:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
-o{standard input}:216:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L9"
-o{standard input}:216:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
-o{standard input}:215:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L8"
-o{standard input}:215:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
-o{standard input}:123:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L3"
-o{standard input}:123:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_NSLog$stub
-o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
-o{standard input}:unknown:Undefined local symbol L_CGRectZero$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
-o{standard input}:unknown:Undefined local symbol L_objc_msgSend_stret$stub
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
-lSLF07#2@74"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m317577629#317577630#0(5264"/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:10:29: error: HelloWorldScene.h: No such file or directory/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m: In function '-[RootViewController bannerViewDidLoadAd:]':/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: 'RootViewController' may not respond to '-moveBannerOnScreen'/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: (Messages without a matching method signature/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: will be assumed to return 'id' and accept/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:20: warning: '...' as arguments.)/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m: In function '-[RootViewController viewDidLoad]':/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:86: error: 'HelloWorld' undeclared (first use in this function)/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:86: error: (Each undeclared identifier is reported only once/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m:86: error: for each function it appears in.){standard input}:399:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L32"{standard input}:399:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:309:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L24"{standard input}:309:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:308:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L23"{standard input}:308:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:304:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L22"{standard input}:304:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:303:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L21"{standard input}:303:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:302:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_3" minus "L20"{standard input}:302:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_3" can't be undefined in a subtraction expression{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L15"{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:221:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L14"{standard input}:221:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:220:non-relocatable subtraction expression, "L_CGRectZero$non_lazy_ptr" minus "L13"{standard input}:220:symbol: "L_CGRectZero$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:219:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L12"{standard input}:219:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:218:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L11"{standard input}:218:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:216:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L9"{standard input}:216:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:215:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L8"{standard input}:215:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:123:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L3"{standard input}:123:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_NSLog$stub{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_CGRectZero$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_objc_msgSend_stret$stub{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_144(4@44"HelloWorldScene.h: No such file or directory317577630#0#126#0(6@66"/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m311649416#10#0#10#0#28"*: No such file or directory0(22@61"'RootViewController' may not respond to '-moveBannerOnScreen'317577630#252#142#0(6@66"/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m311649416#20#0#20#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)317577630#394#126#0(6@66"/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m311649416#20#0#20#0#0"0(4@52"'HelloWorld' undeclared (first use in this function)317577630#860#131#0(6@66"/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m311649416#86#0#86#0#43"'*' undeclared (first use in this function)0(0#0#66"/Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m8611190496#1919"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/RootViewController.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/RootViewController.o1#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Scoreboard.o /Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577630.337211
-e317577630.461713
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Scoreboard.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m317577630#317577630#0(0"0(0#0#58"/Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m8613508704#1903"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/Scoreboard.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Scoreboard.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Spaceship.o /Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577630.285063
-e317577630.548772
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Spaceship.o
-x/Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m317577630#317577630#0(0"0(0#0#57"/Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m8619341216#1901"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/Classes/Spaceship.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/Spaceship.o0#
-
-CCompileC build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/main.o /Users/azamsharp/Documents/SpaceDemon/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577629.662907
-e317577629.714137
-r1
-xCompileC
-xbuild/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/main.o
-x/Users/azamsharp/Documents/SpaceDemon/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Users/azamsharp/Documents/SpaceDemon/main.m317577629#317577629#0(0"0(0#0#44"/Users/azamsharp/Documents/SpaceDemon/main.m8619118976#1883"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -include /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch -c /Users/azamsharp/Documents/SpaceDemon/main.m -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/main.o0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Background3.png Resources/Background3.png
-s317577628.220919
-e317577628.258812
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Background3.png
-xResources/Background3.png
-olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/Background3.png Resources/Background3.png317577628#317577628#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#63"/Users/azamsharp/Documents/SpaceDemon/Resources/Background3.png8611116320#642"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/Background3.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Background3.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Default.png Resources/Default.png
-s317577628.011551
-e317577628.450724
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Default.png
-xResources/Default.png
-lSLF07#2@81"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/Default.png Resources/Default.png317577628#317577628#0(0"0(0#0#59"/Users/azamsharp/Documents/SpaceDemon/Resources/Default.png8611248576#634"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/Default.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Default.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Icon.png Resources/Icon.png
-s317577628.180450
-e317577628.220829
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Icon.png
-xResources/Icon.png
-lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/Icon.png Resources/Icon.png317577628#317577628#0(0"0(0#0#56"/Users/azamsharp/Documents/SpaceDemon/Resources/Icon.png8611426976#628"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/Icon.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Icon.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/devil.png Resources/devil.png
-s317577628.446227
-e317577628.534868
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/devil.png
-xResources/devil.png
-lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/devil.png Resources/devil.png317577628#317577628#0(0"0(0#0#57"/Users/azamsharp/Documents/SpaceDemon/Resources/devil.png8609988384#630"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/devil.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/devil.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fire.png Resources/fire.png
-s317577628.295421
-e317577628.329911
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fire.png
-xResources/fire.png
-lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/fire.png Resources/fire.png317577628#317577628#0(0"0(0#0#56"/Users/azamsharp/Documents/SpaceDemon/Resources/fire.png8610805600#628"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/fire.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fire.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/firewood.png Resources/firewood.png
-s317577628.331029
-e317577628.446134
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/firewood.png
-xResources/firewood.png
-lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/firewood.png Resources/firewood.png317577628#317577628#0(0"0(0#0#60"/Users/azamsharp/Documents/SpaceDemon/Resources/firewood.png8610400512#636"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/firewood.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/firewood.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fps_images.png Resources/fps_images.png
-s317577628.012294
-e317577628.180357
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fps_images.png
-xResources/fps_images.png
-lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/fps_images.png Resources/fps_images.png317577628#317577628#0(0"0(0#0#62"/Users/azamsharp/Documents/SpaceDemon/Resources/fps_images.png8611065984#640"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/fps_images.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/fps_images.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/small_spaceship.png Resources/small_spaceship.png
-s317577628.533572
-e317577628.575680
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/small_spaceship.png
-xResources/small_spaceship.png
-lSLF07#2@97"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/small_spaceship.png Resources/small_spaceship.png317577628#317577628#0(0"0(0#0#67"/Users/azamsharp/Documents/SpaceDemon/Resources/small_spaceship.png8622306528#650"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/small_spaceship.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/small_spaceship.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/smiley.png Resources/smiley.png
-s317577628.258897
-e317577628.295334
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/smiley.png
-xResources/smiley.png
-olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
-lSLF07#2@79"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/smiley.png Resources/smiley.png317577628#317577628#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#58"/Users/azamsharp/Documents/SpaceDemon/Resources/smiley.png8611018208#632"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/smiley.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/smiley.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/space_demon_home_screen.png Resources/space_demon_home_screen.png
-s317577628.540591
-e317577629.068360
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/space_demon_home_screen.png
-xResources/space_demon_home_screen.png
-lSLF07#2@113"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/space_demon_home_screen.png Resources/space_demon_home_screen.png317577628#317577629#0(0"0(0#0#75"/Users/azamsharp/Documents/SpaceDemon/Resources/space_demon_home_screen.png8621663104#666"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/space_demon_home_screen.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/space_demon_home_screen.png0#
-
-CCopyPNGFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/spaceship.png Resources/spaceship.png
-s317577628.450817
-e317577628.513012
-r1
-xCopyPNGFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/spaceship.png
-xResources/spaceship.png
-lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/SpaceDemon.app/spaceship.png Resources/spaceship.png317577628#317577628#0(0"0(0#0#61"/Users/azamsharp/Documents/SpaceDemon/Resources/spaceship.png8608662688#638"    cd /Users/azamsharp/Documents/SpaceDemon    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/azamsharp/Documents/SpaceDemon/Resources/spaceship.png /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/spaceship.png0#
-
-CCpResource build/Debug-iphoneos/SpaceDemon.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s317577627.976565
-e317577628.011243
-r1
-xCpResource
-xbuild/Debug-iphoneos/SpaceDemon.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist317577627#317577628#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist8611869824#543"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app0#
-
-CCpResource build/Debug-iphoneos/SpaceDemon.app/fire.pvr Resources/fire.pvr
-s317577628.330009
-e317577628.339177
-r1
-xCpResource
-xbuild/Debug-iphoneos/SpaceDemon.app/fire.pvr
-xResources/fire.pvr
-lSLF07#2@23"Copy Resources/fire.pvr317577628#317577628#0(0"0(0#0#56"/Users/azamsharp/Documents/SpaceDemon/Resources/fire.pvr8610697280#510"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/SpaceDemon/Resources/fire.pvr /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app0#
-
-CCpResource build/Debug-iphoneos/SpaceDemon.app/fireball.wav Resources/fireball.wav
-s317577628.513102
-e317577628.534749
-r1
-xCpResource
-xbuild/Debug-iphoneos/SpaceDemon.app/fireball.wav
-xResources/fireball.wav
-lSLF07#2@27"Copy Resources/fireball.wav317577628#317577628#0(0"0(0#0#60"/Users/azamsharp/Documents/SpaceDemon/Resources/fireball.wav8608297088#514"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/SpaceDemon/Resources/fireball.wav /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app0#
-
-CCpResource build/Debug-iphoneos/SpaceDemon.app/laser.wav Resources/laser.wav
-s317577628.514059
-e317577628.540501
-r1
-xCpResource
-xbuild/Debug-iphoneos/SpaceDemon.app/laser.wav
-xResources/laser.wav
-lSLF07#2@24"Copy Resources/laser.wav317577628#317577628#0(0"0(0#0#57"/Users/azamsharp/Documents/SpaceDemon/Resources/laser.wav8608207872#511"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/azamsharp/Documents/SpaceDemon/Resources/laser.wav /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app0#
-
-CGenerateDSYMFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app.dSYM /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon
-s317577421.213896
-e317577421.597270
-r1
-xGenerateDSYMFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app.dSYM
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon
-lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/SpaceDemon.app.dSYM build/Debug-iphoneos/SpaceDemon.app/SpaceDemon317577421#317577421#0(0"0(0#0#84"/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon8608230816#430"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon -o /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app.dSYM0#
-
-CLd /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon normal armv6
-s317577601.628068
-e317577601.801367
-r0
-xLd
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon
-xnormal
-xarmv6
-oUndefined symbols:
-o  "_OBJC_CLASS_$_HelloWorld", referenced from:
-o      objc-class-ref-to-HelloWorld in RootViewController.o
-old: symbol(s) not found
-ocollect2: ld returned 1 exit status
-lSLF07#2@89"Link /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon317577601#317577601#0(185"Undefined symbols:  "_OBJC_CLASS_$_HelloWorld", referenced from:      objc-class-ref-to-HelloWorld in RootViewController.old: symbol(s) not foundcollect2: ld returned 1 exit status4(4@44""_OBJC_CLASS_$_HelloWorld", referenced from:317577601#19#47#0(6@0"317577601#0#0#0#0#0"0(13@52"Objc-class-ref-to-HelloWorld in RootViewController.o317577601#66#59#0(6@0"317577601#0#0#0#0#0"0(13@19"Symbol(s) not found317577601#125#24#0(6@0"317577601#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status317577601#149#36#0(6@0"317577601#0#0#0#0#0"0(0#0#0"8620071392#1064"    cd /Users/azamsharp/Documents/SpaceDemon    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -L/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -filelist /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/Objects-normal/armv6/SpaceDemon.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.0 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -weak_framework iAd -o /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/SpaceDemon1#
-
-CProcessInfoPlistFile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Info.plist Resources/Info.plist
-s317577627.977422
-e317577628.011480
-r1
-xProcessInfoPlistFile
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Info.plist
-xResources/Info.plist
-lSLF07#2@28"Process Resources/Info.plist317577627#317577628#0(0"0(0#0#58"/Users/azamsharp/Documents/SpaceDemon/Resources/Info.plist8608461472#631"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/ResourceRules.plist -o /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/Info.plist0#
-
-CProcessPCH /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch.gch SpaceDemon_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s317577629.068482
-e317577629.662725
-r1
-xProcessPCH
-x/var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch.gch
-xSpaceDemon_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile SpaceDemon_Prefix.pch317577629#317577629#0(0"0(0#0#59"/Users/azamsharp/Documents/SpaceDemon/SpaceDemon_Prefix.pch8620418560#1779"    cd /Users/azamsharp/Documents/SpaceDemon    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=3.0 -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-generated-files.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-own-target-headers.hmap -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-all-target-headers.hmap -iquote /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon-project-headers.hmap -Wall -F/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos -I/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/include -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources/armv6 -I/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/DerivedSources -c /Users/azamsharp/Documents/SpaceDemon/SpaceDemon_Prefix.pch -o /var/folders/2S/2SGqApIzEAq6WDxboBGtvk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SpaceDemon_Prefix-bhlkufctbtfoazbjbdsiqtpoleyk/SpaceDemon_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/azamsharp/Library/MobileDevice/Provisioning Profiles/5C52DC90-680A-4912-B13F-CD5EE85D6A27.mobileprovision" /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision
-s317577630.727864
-e317577630.729154
-r1
-xProcessProductPackaging
-x/Users/azamsharp/Library/MobileDevice/Provisioning Profiles/5C52DC90-680A-4912-B13F-CD5EE85D6A27.mobileprovision
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision
-lSLF07#2@199"ProcessProductPackaging "/Users/azamsharp/Library/MobileDevice/Provisioning Profiles/5C52DC90-680A-4912-B13F-CD5EE85D6A27.mobileprovision" build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision317577630#317577630#0(0"0(0#0#98"/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision8612022336#490"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/azamsharp/Library/MobileDevice/Provisioning Profiles/5C52DC90-680A-4912-B13F-CD5EE85D6A27.mobileprovision" -o /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent
-s317577630.729221
-e317577630.750511
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent
-lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent317577630#317577630#0(0"0(0#0#109"/Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent8611145504#501"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/azamsharp/Documents/SpaceDemon/build/SpaceDemon.build/Debug-iphoneos/SpaceDemon.build/SpaceDemon.xcent0#
-
-CTouch /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app
-s317577421.597596
-e317577421.611327
-r1
-xTouch
-x/Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app
-lSLF07#2@79"Touch /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app317577421#317577421#0(0"0(0#0#0"8610729056#327"    cd /Users/azamsharp/Documents/SpaceDemon    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/azamsharp/Documents/SpaceDemon/build/Debug-iphoneos/SpaceDemon.app0#
-
