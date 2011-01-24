@@ -1,0 +1,176 @@
+//
+//  HelloWorldLayer.m
+//  HelloCocos
+//
+//  Created by Mohammad Azam on 10/17/10.
+//  Copyright HighOnCoding 2010. All rights reserved.
+//
+
+// Import the interfaces
+#import "HelloWorldScene.h"
+#import "Environment.h" 
+#import "Demon.h"
+#import "Scoreboard.h" 
+
+// HelloWorld implementation
+@implementation HelloWorld
+
+CCSprite *firewood; 
+CGPoint p;
+
+@synthesize fireball,scoreboard; 
+@synthesize collisionManager,demon,spaceship,env,lives;
+
++(id) scene
+{
+	// 'scene' is an autorelease object.
+	CCScene *scene = [CCScene node];
+	
+	// 'layer' is an autorelease object.
+	HelloWorld *layer = [HelloWorld node];
+	
+	// add layer as a child to scene
+	[scene addChild: layer];
+	
+	// return the scene
+	return scene;
+}
+
+
+// on "init" you need to initialize your instance
+-(id) init
+{
+	// always call "super" init
+	// Apple recommends to re-assign "self" with the "super" return value
+	if( (self=[super init] )) {
+		
+		self.lives = 3; 
+		
+		collisionManager = [[CollisionManager alloc] init];
+		
+		CGSize windowSize = [[CCDirector sharedDirector] winSize];
+				
+		isTouchEnabled = YES;
+		
+		[self addSpaceshipToGame];
+				
+		// demon 
+		self.demon = [[Demon alloc] initWithSpriteFileName:@"devil.png" currentLayer:self];
+		self.demon.sprite.position = ccp(windowSize.width/2,windowSize.height - demon.sprite.contentSize.height); 
+		[self addChild:demon.sprite];
+		
+		// setup the environment = sea of fire 
+		self.env = [[Environment alloc] initWithLayer:self];
+		[self.env setup];
+		[self.env drawLives:self.lives]; 
+		
+		// setup scoreboard
+		self.scoreboard = [[Scoreboard alloc] initWithScoreAndLayer:0 currentLayer:self];
+		[self.scoreboard display]; 
+		
+		[self.demon start];
+		
+		[self schedule:@selector(checkIfSpaceshipIsHit)];
+		
+	}
+	
+	return self;
+}
+
+-(BOOL) isGameOver 
+{
+	return self.lives == 0; 
+}
+
+-(void) addSpaceshipToGame 
+{
+	if([self isGameOver]) 
+	{
+		[env displayGameOverMessage]; 
+	}
+	else 
+	{
+	
+	if(self.spaceship != nil) 
+	{
+		[self removeChild:self.spaceship.sprite cleanup:YES];
+		self.spaceship.sprite = nil;
+	}
+	
+	
+	CGSize windowSize = [[CCDirector sharedDirector] winSize];
+	// space ship
+	self.spaceship = [[Spaceship alloc] initWithSpriteFileName:@"spaceship.png" currentLayer:self];
+	spaceship.sprite.position = ccp(windowSize.width/2,spaceship.sprite.contentSize.height); 
+	[self addChild:spaceship.sprite]; 	
+	}
+}
+
+-(void) checkIfSpaceshipIsHit
+{
+	// spaceship hit by a demon 
+	if([collisionManager isCollided:self.demon.sprite objectUnderCollision:spaceship.sprite]
+	   || ([collisionManager isCollided:self.demon.fireball objectUnderCollision:spaceship.sprite]) ) 
+	{
+
+		[self.env removeLifeByTag:self.lives];
+
+		self.lives -= 1; 
+		
+		[self.spaceship hit];
+		
+		[self performSelector:@selector(addSpaceshipToGame) withObject:nil afterDelay:5.0];
+		
+	}
+		
+	}
+
+
+-(void) checkIfDemonIsHit
+{	
+	
+	if([collisionManager isCollided:self.spaceship.laser objectUnderCollision:demon.sprite])
+	{
+		[self.demon hit]; 
+	
+	}
+	
+
+}
+
+-(void) ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+	
+    UITouch *touch = [touches anyObject];
+    CGPoint location = [touch locationInView:[touch view]];
+    location = [[CCDirector sharedDirector] convertToGL:location];
+	
+	[spaceship move:location]; 
+	
+	float distance = pow(self.spaceship.sprite.position.x - location.x, 2) + pow(self.spaceship.sprite.position.y - location.y, 2); 
+	distance = sqrt(distance); 
+	
+	if(distance <= 50) 
+	{	
+		[self.spaceship fire];
+		
+		if(self.demon.sprite != nil) 
+		{
+		[self schedule:@selector(checkIfDemonIsHit)];	
+		}
+			
+	}
+	
+}
+
+// on "dealloc" you need to release all your retained objects
+- (void) dealloc
+{
+	// in case you have something to dealloc, do it in this method
+	// in this particular example nothing needs to be released.
+	// cocos2d will automatically release all the children (Label)
+	
+	// don't forget to call "super dealloc"
+	[super dealloc];
+}
+@end
