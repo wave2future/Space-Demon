@@ -10,19 +10,22 @@
 #import "cocos2d.h" 
 #import "SimpleAudioEngine.h" 
 #import "Spaceship.h" 
+#import "PauseLayer.h" 
 
 
 @interface Environment : BaseEntity {
 
 	CCLayer *layer; 
-	
+ 	
 }
 
 -(void) setup;
 -(void) drawLives:(int) lives; 
 -(void) preloadSounds; 
 -(void) displayGameOverMessage; 
+-(void) drawPauseAndPlayButtons; 
 
 @property (nonatomic,retain) CCLayer *layer; 
+
 
 @end

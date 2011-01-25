@@ -39,7 +39,7 @@
 	// You can change anytime.
 	[CCTexture2D setDefaultAlphaPixelFormat:kTexture2DPixelFormat_RGBA8888];	
 
-	[[CCDirector sharedDirector] runWithScene: [HomeScene scene]];
+	[[CCDirector sharedDirector] runWithScene: [GameScene scene]];
 	
 }
 

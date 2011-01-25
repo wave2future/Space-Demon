@@ -18,12 +18,13 @@
 {
 	self = [super init]; 
 	self.layer = l; 
+	
 	return self; 
 }
 
 -(void) displayGameOverMessage
 {
-	CGSize windowSize = [[CCDirector sharedDirector] winSize];
+
 	CCLabel *label = [[CCLabel alloc] initWithString:@"Game Over" fontName:@"Marker Felt" fontSize:26];
 	label.position = ccp(windowSize.width/2, windowSize.height/2); 
 	[self.layer addChild:label];
@@ -44,6 +45,32 @@
 	NSLog(@"removeLifeByTag tag = %d",tag);
 	[self.layer removeChildByTag:tag cleanup:YES];
 	}
+}
+
+-(void) pauseGame:(id) sender 
+{
+	BOOL isPaused = [[CCDirector sharedDirector] isPaused];
+	
+	if(!isPaused) 
+	{
+		// pause the game
+		ccColor4B c = {100,100,0,100}; 
+		PauseLayer *pauseLayer = [[[PauseLayer alloc] initWithColor:c] autorelease]; 
+		[self.layer.parent addChild:pauseLayer z:10 tag:100]; 
+		[[CCDirector sharedDirector] pause];
+			
+	}
+	
+}
+
+
+-(void) drawPauseAndPlayButtons
+{
+	CCMenuItemImage *menuItem1 = [CCMenuItemImage itemFromNormalImage:@"red_button.png" selectedImage:@"red_button.png" target:self selector:@selector(pauseGame:)];
+		
+	CCMenu *menu = [CCMenu menuWithItems:menuItem1,nil]; 
+	menu.position = ccp(windowSize.width - menuItem1.contentSize.width,windowSize.height - menuItem1.contentSize.height); 
+	[self.layer addChild:menu];
 }
 
 -(void) drawLives:(int) lives 
@@ -99,6 +126,9 @@
 	 
 	// preload sounds
 	[self preloadSounds];
+	
+		// draw pause and play buttons 
+	[self drawPauseAndPlayButtons]; 
 
 	
 }

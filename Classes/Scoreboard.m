@@ -24,9 +24,9 @@
 
 -(void) display
 {
-	scoreLabel = [CCLabel labelWithString:[NSString stringWithFormat:@"%d",score] fontName:@"Marker Felt" fontSize:25];
-	scoreLabel.position = ccp(windowSize.width - scoreLabel.contentSize.width,windowSize.height - scoreLabel.contentSize.height); 
-	[self.layer addChild:scoreLabel];
+	//scoreLabel = [CCLabel labelWithString:[NSString stringWithFormat:@"%d",score] fontName:@"Marker Felt" fontSize:25];
+	//scoreLabel.position = ccp(windowSize.width - scoreLabel.contentSize.width,windowSize.height - scoreLabel.contentSize.height); 
+	//[self.layer addChild:scoreLabel];
 }
 
 -(void) update:(int)s
