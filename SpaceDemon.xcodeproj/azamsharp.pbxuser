@@ -181,6 +181,8 @@
 			8DCD768012EF6871001836CE /* PBXTextBookmark */ = 8DCD768012EF6871001836CE /* PBXTextBookmark */;
 			8DCD768112EF6871001836CE /* PBXTextBookmark */ = 8DCD768112EF6871001836CE /* PBXTextBookmark */;
 			8DCD768212EF6871001836CE /* PBXTextBookmark */ = 8DCD768212EF6871001836CE /* PBXTextBookmark */;
+			8DCD768312EF69BB001836CE /* XCBuildMessageTextBookmark */ = 8DCD768312EF69BB001836CE /* XCBuildMessageTextBookmark */;
+			8DCD768412EF69BB001836CE /* PBXTextBookmark */ = 8DCD768412EF69BB001836CE /* PBXTextBookmark */;
 			8DE204F012EE3E0D008EB24F = 8DE204F012EE3E0D008EB24F /* PBXTextBookmark */;
 			8DE204F112EE3E0D008EB24F = 8DE204F112EE3E0D008EB24F /* PBXTextBookmark */;
 			8DE204F212EE3E0D008EB24F = 8DE204F212EE3E0D008EB24F /* PBXBookmark */;
@@ -568,9 +570,9 @@
 	};
 	8DB6B70C12B7B86300CB6DD9 /* Environment.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1324, 2176}}";
-			sepNavSelRange = "{1234, 0}";
-			sepNavVisRange = "{884, 834}";
+			sepNavIntBoundsRect = "{{0, 0}, {1324, 2192}}";
+			sepNavSelRange = "{1717, 0}";
+			sepNavVisRange = "{1276, 749}";
 			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
 		};
 	};
@@ -985,6 +987,25 @@
 		rType = 0;
 		vrLen = 834;
 		vrLoc = 884;
+	};
+	8DCD768312EF69BB001836CE /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'pauseLayer' in something not a structure or union";
+		fRef = 8DB6B70C12B7B86300CB6DD9 /* Environment.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 129;
+		rType = 1;
+	};
+	8DCD768412EF69BB001836CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8DB6B70C12B7B86300CB6DD9 /* Environment.m */;
+		name = "Environment.m: 80";
+		rLen = 0;
+		rLoc = 1717;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 1276;
 	};
 	8DE2046D12EE3001008EB24F /* PauseLayer.h */ = {
 		uiCtxt = {

@@ -45,10 +45,18 @@
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
+	
 	[[CCDirector sharedDirector] pause];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
+	
+	BOOL isPaused = [[CCDirector sharedDirector] isPaused]; 
+	
+	if(isPaused) 
+		[[CCDirector sharedDirector] pause];
+	
+	else 
 	[[CCDirector sharedDirector] resume];
 }
 
