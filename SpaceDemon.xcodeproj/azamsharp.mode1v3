@@ -273,7 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
+									<integer>8</integer>
 									<integer>4</integer>
 									<integer>0</integer>
 								</array>
@@ -316,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Environment.m</string>
+								<string>HelloCocosAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Environment.m</string>
+										<string>HelloCocosAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8DCD768212EF6871001836CE</string>
+										<string>8DCD76B912EF705B001836CE</string>
 										<key>history</key>
 										<array>
 											<string>8D740FE212878E9A00B694D7</string>
@@ -342,16 +342,12 @@
 											<string>8DBC7F9A12B95739005F177B</string>
 											<string>8D59A38312C12F0C00E74302</string>
 											<string>8D59A3C612C131F100E74302</string>
-											<string>8D59A3E912C1375F00E74302</string>
-											<string>8D59A3EA12C1375F00E74302</string>
 											<string>8D59A3EE12C1375F00E74302</string>
-											<string>8D45E4BC12C308E400C702B2</string>
 											<string>8D72EC1312C901D0005221B7</string>
 											<string>8D2988BD12E5F2E900133787</string>
 											<string>8D2988BE12E5F2E900133787</string>
 											<string>8D0D32FE12ED1CF600AE4A9E</string>
 											<string>8D0D32FF12ED1CF600AE4A9E</string>
-											<string>8D65CCD112EDD9DE005AC324</string>
 											<string>8D65CCD312EDD9DE005AC324</string>
 											<string>8D65CCDE12EDDA8D005AC324</string>
 											<string>8D65CCDF12EDDA8D005AC324</string>
@@ -360,14 +356,18 @@
 											<string>8DE204F212EE3E0D008EB24F</string>
 											<string>8DE204F312EE3E0D008EB24F</string>
 											<string>8DE204F412EE3E0D008EB24F</string>
-											<string>8DCD758412EF1757001836CE</string>
-											<string>8DCD758A12EF1E3F001836CE</string>
 											<string>8DCD765712EF6786001836CE</string>
 											<string>8DCD765812EF6786001836CE</string>
 											<string>8DCD765912EF6786001836CE</string>
 											<string>8DCD765A12EF6786001836CE</string>
-											<string>8DCD768012EF6871001836CE</string>
-											<string>8DCD768112EF6871001836CE</string>
+											<string>8DCD769812EF6E7C001836CE</string>
+											<string>8DCD769912EF6E7C001836CE</string>
+											<string>8DCD769A12EF6E7C001836CE</string>
+											<string>8DCD76A012EF6F31001836CE</string>
+											<string>8DCD76A112EF6F31001836CE</string>
+											<string>8DCD76A212EF6F31001836CE</string>
+											<string>8DCD76B612EF7010001836CE</string>
+											<string>8DCD76B712EF7010001836CE</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -565,10 +565,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>8DCD76B312EF6FB8001836CE</string>
+		<string>8DCD76AF12EF6FA6001836CE</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>8D139332126BBCF700B2F32B</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/azamsharp/Documents/SpaceDemon/src/SpaceDemon.xcodeproj</string>
-		<string>8D139332126BBCF700B2F32B</string>
 	</array>
 	<key>WindowString</key>
 	<string>5 59 1280 719 0 0 1280 778 </string>
@@ -663,7 +665,7 @@
 			<key>WindowToolGUID</key>
 			<string>8D139332126BBCF700B2F32B</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

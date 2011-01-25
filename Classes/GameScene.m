@@ -28,9 +28,10 @@ CGPoint p;
 	
 	// 'layer' is an autorelease object.
 	GameScene *layer = [GameScene node];
+	[layer setTag:999];
 	
 	// add layer as a child to scene
-	[scene addChild: layer];
+	[scene addChild:layer];
 	
 	// return the scene
 	return scene;
@@ -79,6 +80,14 @@ CGPoint p;
 	
 	return self;
 }
+
+// pause the game 
+-(void) pauseGame 
+{
+	
+}
+
+
 
 -(void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration
 {

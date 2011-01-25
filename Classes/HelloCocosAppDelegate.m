@@ -48,6 +48,23 @@
 	
 	// this should be used when someone calls 
 	
+	CCScene *scene = [[CCDirector sharedDirector] runningScene];
+	BOOL isPaused = [[CCDirector sharedDirector] isPaused];
+	
+	if([scene isKindOfClass:[GameScene class]]) 
+	{
+				if(!isPaused) 
+				{
+					// this code is not tested! wondering how to test a phone call interruption! 
+					
+					GameScene *layer = (GameScene *) [scene getChildByTag:999]; 
+					
+					Environment *env = [Environment initWithLayer:layer]; 
+					[env pauseGame:nil]; 
+					
+				}
+	}
+	
 	NSLog(@"application has become inactive!");
 	
 	[[CCDirector sharedDirector] pause];
@@ -55,12 +72,12 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
 	
-	//BOOL isPaused = [[CCDirector sharedDirector] isPaused]; 
+	BOOL isPaused = [[CCDirector sharedDirector] isPaused]; 
 	
-	//if(isPaused) 
-	//	[[CCDirector sharedDirector] pause];
+	if(isPaused) 
+		[[CCDirector sharedDirector] pause];
 	
-	//else 
+	else 
 	[[CCDirector sharedDirector] resume];
 }
 
