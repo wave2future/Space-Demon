@@ -46,17 +46,21 @@
 
 - (void)applicationWillResignActive:(UIApplication *)application {
 	
+	// this should be used when someone calls 
+	
+	NSLog(@"application has become inactive!");
+	
 	[[CCDirector sharedDirector] pause];
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
 	
-	BOOL isPaused = [[CCDirector sharedDirector] isPaused]; 
+	//BOOL isPaused = [[CCDirector sharedDirector] isPaused]; 
 	
-	if(isPaused) 
-		[[CCDirector sharedDirector] pause];
+	//if(isPaused) 
+	//	[[CCDirector sharedDirector] pause];
 	
-	else 
+	//else 
 	[[CCDirector sharedDirector] resume];
 }
 
