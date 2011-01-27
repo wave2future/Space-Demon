@@ -19,7 +19,7 @@ CCSprite *firewood;
 CGPoint p;
 
 @synthesize fireball,scoreboard; 
-@synthesize collisionManager,demon,spaceship,env,lives;
+@synthesize collisionManager,demon,spaceship,env,lives,windowSize;
 
 +(id) scene
 {
@@ -74,7 +74,7 @@ CGPoint p;
 		
 		[self.demon start];
 		
-		[self schedule:@selector(checkIfSpaceshipIsHit)];
+		//[self schedule:@selector(checkIfSpaceshipIsHit)];
 		
 	}
 	
@@ -108,13 +108,14 @@ CGPoint p;
 		else if(speed < -movementSpeed) 
 			speed = -movementSpeed; 
 		
+		if((accelX > 0 || self.spaceship.sprite.position.x > self.spaceship.sprite.textureRect.size.width/2) 
+		   && (accelX < 0 || self.spaceship.sprite.position.x < 320 - self.spaceship.sprite.textureRect.size.width /2))
+		   
+		{
 		
-		[self.spaceship.sprite setPosition:ccp(self.spaceship.sprite.position.x + speed, self.spaceship.sprite.position.y)];
-		
-		
+			[self.spaceship.sprite setPosition:ccp(self.spaceship.sprite.position.x + speed, self.spaceship.sprite.position.y)];
+		}
 	}
-	
-	
 }
 
 

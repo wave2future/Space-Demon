@@ -64,7 +64,7 @@
 }
 
 
--(void) drawPauseAndPlayButtons
+-(void) drawPauseButtons
 {
 	CCMenuItemImage *menuItem1 = [CCMenuItemImage itemFromNormalImage:@"red_button.png" selectedImage:@"red_button.png" target:self selector:@selector(pauseGame:)];
 		
@@ -128,7 +128,7 @@
 	[self preloadSounds];
 	
 		// draw pause and play buttons 
-	[self drawPauseAndPlayButtons]; 
+	[self drawPauseButtons]; 
 
 	
 }

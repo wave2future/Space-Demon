@@ -27,6 +27,7 @@
 	Scoreboard *scoreboard;
 	Environment *env;
 	int lives; 
+	CGSize windowSize; 
 	
 	
 }
@@ -44,6 +45,7 @@
 @property (nonatomic,retain) Scoreboard *scoreboard; 
 @property (nonatomic,retain) Environment *env; 
 @property (nonatomic,assign) int lives; 
+@property (nonatomic,assign) CGSize windowSize; 
 
 
 @end

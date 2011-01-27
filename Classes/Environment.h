@@ -23,7 +23,7 @@
 -(void) drawLives:(int) lives; 
 -(void) preloadSounds; 
 -(void) displayGameOverMessage; 
--(void) drawPauseAndPlayButtons; 
+-(void) drawPauseButtons; 
 
 @property (nonatomic,retain) CCLayer *layer; 
 

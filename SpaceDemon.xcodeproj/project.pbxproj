@@ -221,6 +221,8 @@
 		8D59A1C512C1002D00E74302 /* small_spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D59A1C412C1002D00E74302 /* small_spaceship.png */; };
 		8D59A42712C1447F00E74302 /* HomeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D59A42612C1447F00E74302 /* HomeScene.m */; };
 		8D59A43C12C1487800E74302 /* space_demon_home_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D59A43B12C1487800E74302 /* space_demon_home_screen.png */; };
+		8D6699FE12EFCE4B00EFD11C /* libisimulate-4.x.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6699FD12EFCE4B00EFD11C /* libisimulate-4.x.a */; };
+		8D669A0012EFCE8000EFD11C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6699FF12EFCE8000EFD11C /* CoreLocation.framework */; };
 		8D9765031299B40000DC71A6 /* firewood.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9765021299B40000DC71A6 /* firewood.png */; };
 		8DB6B70A12B7B57F00CB6DD9 /* Demon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6B70912B7B57F00CB6DD9 /* Demon.m */; };
 		8DB6B70D12B7B86300CB6DD9 /* Environment.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6B70C12B7B86300CB6DD9 /* Environment.m */; };
@@ -476,6 +478,8 @@
 		8D59A42512C1447F00E74302 /* HomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScene.h; sourceTree = "<group>"; };
 		8D59A42612C1447F00E74302 /* HomeScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScene.m; sourceTree = "<group>"; };
 		8D59A43B12C1487800E74302 /* space_demon_home_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = space_demon_home_screen.png; sourceTree = "<group>"; };
+		8D6699FD12EFCE4B00EFD11C /* libisimulate-4.x.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libisimulate-4.x.a"; path = "../../../Downloads/libisimulate-4.x-1.5-20100925/libisimulate-4.x.a"; sourceTree = SOURCE_ROOT; };
+		8D6699FF12EFCE8000EFD11C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		8D72EC0C12C8FF8F005221B7 /* SpaceDemon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceDemon_Prefix.pch; sourceTree = "<group>"; };
 		8D9765021299B40000DC71A6 /* firewood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firewood.png; sourceTree = "<group>"; };
 		8DB6B70812B7B57F00CB6DD9 /* Demon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demon.h; sourceTree = "<group>"; };
@@ -527,6 +531,8 @@
 				506EDBA5102F4C9F00A389B3 /* AVFoundation.framework in Frameworks */,
 				506EE1A91030508200A389B3 /* libcocos2d libraries.a in Frameworks */,
 				8DCF8911128FA27A000F4478 /* iAd.framework in Frameworks */,
+				8D6699FE12EFCE4B00EFD11C /* libisimulate-4.x.a in Frameworks */,
+				8D669A0012EFCE8000EFD11C /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +565,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8D6699FD12EFCE4B00EFD11C /* libisimulate-4.x.a */,
 				504DFC6810AF1739006D82FE /* LICENSE.cocos2d */,
 				504DFC6910AF1739006D82FE /* LICENSE.cocosdenshion */,
 				506EDAA3102F461B00A389B3 /* cocos2d Sources */,
@@ -570,6 +577,7 @@
 				8D4EE71812C830BF004A2BB8 /* LogicTests-Info.plist */,
 				8D4EE71D12C830F8004A2BB8 /* LogicTests.h */,
 				8D4EE71E12C830F8004A2BB8 /* LogicTests.m */,
+				8D6699FF12EFCE8000EFD11C /* CoreLocation.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1264,6 +1272,10 @@
 				GCC_PREFIX_HEADER = SpaceDemon_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/libisimulate-4.x-1.5-20100925\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1287,6 +1299,10 @@
 				GCC_PREFIX_HEADER = SpaceDemon_Prefix.pch;
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Downloads/libisimulate-4.x-1.5-20100925\"",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -1343,6 +1359,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
 			};
@@ -1361,6 +1378,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.0;
 			};
