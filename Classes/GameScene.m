@@ -74,7 +74,7 @@ CGPoint p;
 		
 		[self.demon start];
 		
-		//[self schedule:@selector(checkIfSpaceshipIsHit)];
+		[self schedule:@selector(checkIfSpaceshipIsHit)];
 		
 	}
 	
@@ -143,6 +143,10 @@ CGPoint p;
 	CGSize windowSize = [[CCDirector sharedDirector] winSize];
 	// space ship
 	self.spaceship = [[Spaceship alloc] initWithSpriteFileName:@"spaceship.png" currentLayer:self];
+		
+	// give few seconds of immortality to the re-spawn spaceship 
+	//[self.spaceship.sprite runAction:[CCBlink actionWithDuration:3.0 blinks:10]];	
+		
 	spaceship.sprite.position = ccp(windowSize.width/2,spaceship.sprite.contentSize.height); 
 	[self addChild:spaceship.sprite]; 	
 	}
@@ -150,6 +154,8 @@ CGPoint p;
 
 -(void) checkIfSpaceshipIsHit
 {
+	if(self.spaceship.isImmortal) return; 
+	
 	// spaceship hit by a demon 
 	if([collisionManager isCollided:self.demon.sprite objectUnderCollision:spaceship.sprite]
 	   || ([collisionManager isCollided:self.demon.fireball objectUnderCollision:spaceship.sprite]) ) 

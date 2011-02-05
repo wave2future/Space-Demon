@@ -17,6 +17,7 @@
 	CCParticleMeteor *laser; 
 	CCLayer *layer; 
 	CCParticleSmoke *smoke;	
+	BOOL isImmortal;
 }
 
 -(void) move:(CGPoint) location; 
@@ -32,6 +33,7 @@
 @property (nonatomic,retain) CCLayer *layer; 
 @property (nonatomic,retain) CCParticleSmoke *smoke;
 @property (nonatomic,retain) CCParticleFire *explosion; 
+@property (nonatomic,assign) BOOL isImmortal; 
 
 
 @end

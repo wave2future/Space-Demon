@@ -11,14 +11,20 @@
 
 @implementation Spaceship
 
-@synthesize sprite,laser,layer,smoke,explosion;
+@synthesize sprite,laser,layer,smoke,explosion,isImmortal;
 
 -(Spaceship *) initWithSpriteFileName:(NSString *) imagePath currentLayer:(CCLayer *) l
 {
 	self = [super init];	
 	self.sprite = [CCSprite spriteWithFile:imagePath];
 	self.layer = l; 
-
+	self.isImmortal = YES; 
+	
+	// add a blink effect for immortality 
+	[self.sprite runAction:[CCBlink actionWithDuration:3.0 blinks:10]];
+	
+	// make the space ship mortal after 4 seconds
+	[self performSelector:@selector(makeMortal) withObject:nil afterDelay:4.0];
 	
 	return self; 
 }
@@ -27,6 +33,11 @@
 {
 	self = [super init]; 
 	return self; 
+}
+
+-(void) makeMortal 
+{
+	self.isImmortal = NO; 
 }
 
 -(void) hit 
